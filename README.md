@@ -9,6 +9,7 @@
 ## Docker で実行するまでの流れ
 
 0. `sudo service docker start`でdockerを起動
+1. クローンしたディレクトリに移動
 1. `docker-compose build`
 2. `docker-compose run web rails db:migrate`
 3. `docker-compose run web rails db:create`
