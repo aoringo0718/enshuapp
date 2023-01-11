@@ -6242,3 +6242,1696 @@ Processing by HomeController#top as HTML
 Completed 200 OK in 10ms (Views: 9.2ms | Allocations: 7919)
 
 
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:16:17 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.7ms | Allocations: 2914)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 6544)
+Completed 200 OK in 9ms (Views: 7.6ms | Allocations: 7914)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:40:59 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2038)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 5371)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 5858)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:41:44 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2917)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 6549)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 7869)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:42:05 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2909)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 6535)
+Completed 200 OK in 10ms (Views: 9.0ms | Allocations: 7899)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:42:16 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2911)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 6537)
+Completed 200 OK in 11ms (Views: 10.2ms | Allocations: 7901)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:42:18 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2038)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 5371)
+Completed 200 OK in 11ms (Views: 10.5ms | Allocations: 5859)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:42:27 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2921)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 6551)
+Completed 200 OK in 10ms (Views: 8.7ms | Allocations: 7874)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:42:33 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.8ms | Allocations: 2917)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 6549)
+Completed 200 OK in 9ms (Views: 7.6ms | Allocations: 7919)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:42:39 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2914)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 6546)
+Completed 200 OK in 9ms (Views: 7.8ms | Allocations: 7916)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:42:44 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.7ms | Allocations: 2909)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 6536)
+Completed 200 OK in 9ms (Views: 7.8ms | Allocations: 7900)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:43:43 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2918)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 6548)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 7915)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:43:56 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2910)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 6536)
+Completed 200 OK in 8ms (Views: 6.8ms | Allocations: 7900)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:44:02 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2912)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 6538)
+Completed 200 OK in 10ms (Views: 8.2ms | Allocations: 7902)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:44:18 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2920)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 6553)
+Completed 200 OK in 10ms (Views: 9.0ms | Allocations: 7923)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:44:24 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2917)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 6548)
+Completed 200 OK in 8ms (Views: 6.9ms | Allocations: 7918)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:46:13 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2918)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 6555)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 7925)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:46:15 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2042)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 5377)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 5865)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:46:47 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.8ms | Allocations: 2910)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 6536)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 7856)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:46:49 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2042)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 5375)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 5862)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:46:57 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2914)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 6546)
+Completed 200 OK in 8ms (Views: 6.9ms | Allocations: 7866)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:46:59 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.6ms | Allocations: 2038)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 5371)
+Completed 200 OK in 6ms (Views: 5.3ms | Allocations: 5858)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:47:34 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2912)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 6548)
+Completed 200 OK in 11ms (Views: 10.7ms | Allocations: 7866)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:50:26 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.7ms | Allocations: 2919)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 6551)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 7921)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 12:59:53 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 19.1ms | Allocations: 9597)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 13212)
+Completed 200 OK in 25ms (Views: 23.7ms | Allocations: 14581)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:00:46 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 11.9ms | Allocations: 10564)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 14173)
+Completed 200 OK in 17ms (Views: 16.1ms | Allocations: 15542)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:15:59 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 24.2ms | Allocations: 15854)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.1ms | Allocations: 19466)
+Completed 200 OK in 30ms (Views: 29.1ms | Allocations: 20833)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:20:28 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 5.9ms | Allocations: 3963)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 7596)
+Completed 200 OK in 13ms (Views: 11.7ms | Allocations: 8966)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:20:45 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.1ms | Allocations: 3948)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 7576)
+Completed 200 OK in 9ms (Views: 7.7ms | Allocations: 8945)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:23:49 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 4.1ms | Allocations: 3951)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 7587)
+Completed 200 OK in 10ms (Views: 9.1ms | Allocations: 8953)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:26:36 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.4ms | Allocations: 3951)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 7577)
+Completed 200 OK in 9ms (Views: 8.6ms | Allocations: 8947)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:26:48 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.5ms | Allocations: 3946)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 7572)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 8936)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:28:29 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 4.3ms | Allocations: 3951)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 7581)
+Completed 200 OK in 10ms (Views: 8.8ms | Allocations: 8948)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:28:31 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 5.3ms | Allocations: 3082)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 6421)
+Completed 200 OK in 10ms (Views: 9.4ms | Allocations: 6909)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:31:25 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.7ms | Allocations: 3963)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 7596)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 8919)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:31:49 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.9ms | Allocations: 3949)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 7576)
+Completed 200 OK in 10ms (Views: 9.1ms | Allocations: 8945)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:32:28 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.6ms | Allocations: 3952)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 7584)
+Completed 200 OK in 9ms (Views: 7.8ms | Allocations: 8950)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:33:36 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.6ms | Allocations: 3074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 6407)
+Completed 200 OK in 6ms (Views: 5.6ms | Allocations: 6894)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:33:49 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.6ms | Allocations: 3951)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 7578)
+Completed 200 OK in 9ms (Views: 8.1ms | Allocations: 8901)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:33:55 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.6ms | Allocations: 3945)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 7572)
+Completed 200 OK in 9ms (Views: 8.1ms | Allocations: 8936)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:34:16 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.8ms | Allocations: 3966)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 7598)
+Completed 200 OK in 10ms (Views: 9.0ms | Allocations: 8968)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:34:40 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 23.2ms | Allocations: 1734)
+  Rendered layout layouts/application.html.erb (Duration: 23.5ms | Allocations: 1809)
+Completed 500 Internal Server Error in 26ms (Allocations: 3135)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1 class="text-center p-4">公立大生が選ぶ！USJオススメエリア５選</h1>
+<h4 class="text-center pb-3">大阪に長年住んでいる(!?)私たちが独断と偏見でオススメエリアを紹介します</h2>
+
+
+
+<% if false %>エリア紹介のカード部分<% end %>
+
+<div class="row">
+    <div class="col-md-2">
+        <div class="card h-100"%>
+            <%= link_to nintendo_path, class:"card-body text-center text-reset text-decoration-none h-50" do %>
+                <%= image_tag 'top/mario.png', class: 'card-img-top' %>
+                <h4 class="card-title">スーパー・ニンテンドー・ワールド™</h4>
+                <h5 class="card-content">recommend by A</h5>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card h-100"%>
+            <%= link_to newyork_path, class:"card-body text-center text-reset text-decoration-none h-50" do %>
+                <%= image_tag 'top/statue_of_liberty.png', class: 'card-img-top aspect-ratio-block' %>
+                <h4 class="card-title">ニューヨーク・エリア</h4>
+                <h5 class="card-content">recommend by B</h5>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card h-100"%>
+            <%= link_to jurassic_path, class:"card-body text-center text-reset text-decoration-none h-50 do %>
+                <%= image_tag 'top/Tyrannosaurus.png', class: 'card-img-top' %>
+                <h4 class="card-title">ジュラシック・パーク</h4>
+                <h5 class="card-content">recommend by C</h5>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card h-100"%>
+            <%= link_to hollywood_path, class:"card-body text-center text-reset text-decoration-none" do %>
+                <%= image_tag 'top/city_night_yoruno_machi.png', class: 'card-img-top h-50' %>
+                <h4 class="card-title">ハリウッド・エリア</h4>
+                <h5 class="card-content">recommend by D</h5>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card h-100"%>
+            <%= link_to harrypotter_path, class:"card-body text-center text-reset text-decoration-none" do %>
+                <%= image_tag 'top/mahoutsukai_white_man.png', class: 'card-img-top h-50' %>
+                <h4 class="card-title">ウィザーディング・ワールド・オブ・ハリー・ポッター™</h4>
+                <h5 class="card-content">recommend by E</h5>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card h-100"%>
+            <%= link_to "https://www.usj.co.jp/web/ja/jp/areas", class: "card-body text-center text-reset text-decoration-none" do %>
+                <%= image_tag 'top/chikyuu.png', class: 'card-img-top h-50' %>
+                <h4 class="card-title">全てのエリアを見る</h4>
+                <h5 class="card-content">(公式HPに遷移します)</h5>
+            <% end %>
+        </div>
+    </div>
+
+</div>
+
+<% if false %>USJについて少し紹介する<% end %>
+
+<div class="row">
+
+    <div class="col-md-2">
+        <a class="twitter-timeline" data-lang="ja" data-height="550" data-height="100%" href="https://twitter.com/USJ_Official?ref_src=twsrc%5Etfw">Tweets by USJ_Official</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+
+    <div class="col-md-2">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CnQk-X4PyQB/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:100% !important; min-width:initial !important; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote>
+        <script async src="//www.instagram.com/embed.js"></script>
+    </div>
+
+    <div class="col-md-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26251.976948226136!2d135.42775698616992!3d34.66740095877791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0d083d5e25d%3A0x3605fe25303252aa!2z44Om44OL44OQ44O844K144Or44O744K544K_44K444Kq44O744K444Oj44OR44Oz!5e0!3m2!1sja!2sjp!4v1673436664923!5m2!1sja!2sjp" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="col-md-4">
+        日本以外のユニバーサルスタジオ<br>
+        <button class="btn btn-primary btn-lg btn-block p-2 mb-5 mt-5" href="https://www.rwsentosa.com/en/attractions/universal-studios-singapore">Universal Studios Singapore</button>
+        <button class="btn btn-success btn-lg btn-block p-2 mb-5" href="https://www.universalstudioshollywood.com/web/en/us">Universal Studios Hollywood</button>
+        <button class="btn btn-danger btn-lg btn-block p-2 mb-5" href="https://www.universalorlando.com/web/en/us/theme-parks/universal-studios-florida">Universal Studios Florida</button>
+        <button class="btn btn-warning btn-lg btn-block p-2 mb-5" href="https://www.universalorlando.com/web/en/us/theme-parks/islands-of-adventure">Universal's Islands of Adventure</button>
+    </div>
+):
+1:    <h1 class="text-center p-4">公立大生が選ぶ！USJオススメエリア５選</h1>
+2:    <h4 class="text-center pb-3">大阪に長年住んでいる(!?)私たちが独断と偏見でオススメエリアを紹介します</h2>
+3:    
+4:    
+5:    
+6:    <% if false %>エリア紹介のカード部分<% end %>
+7:    
+8:    <div class="row">
+9:        <div class="col-md-2">
+10:            <div class="card h-100"%>
+11:                <%= link_to nintendo_path, class:"card-body text-center text-reset text-decoration-none h-50" do %>
+12:                    <%= image_tag 'top/mario.png', class: 'card-img-top' %>
+13:                    <h4 class="card-title">スーパー・ニンテンドー・ワールド™</h4>
+14:                    <h5 class="card-content">recommend by A</h5>
+15:                <% end %>
+16:            </div>
+17:        </div>
+18:    
+19:        <div class="col-md-2">
+20:            <div class="card h-100"%>
+21:                <%= link_to newyork_path, class:"card-body text-center text-reset text-decoration-none h-50" do %>
+22:                    <%= image_tag 'top/statue_of_liberty.png', class: 'card-img-top aspect-ratio-block' %>
+23:                    <h4 class="card-title">ニューヨーク・エリア</h4>
+24:                    <h5 class="card-content">recommend by B</h5>
+25:                <% end %>
+26:            </div>
+27:        </div>
+28:    
+29:        <div class="col-md-2">
+30:            <div class="card h-100"%>
+31:                <%= link_to jurassic_path, class:"card-body text-center text-reset text-decoration-none h-50 do %>
+32:                    <%= image_tag 'top/Tyrannosaurus.png', class: 'card-img-top' %>
+33:                    <h4 class="card-title">ジュラシック・パーク</h4>
+34:                    <h5 class="card-content">recommend by C</h5>
+35:                <% end %>
+36:            </div>
+37:        </div>
+38:    
+39:        <div class="col-md-2">
+40:            <div class="card h-100"%>
+41:                <%= link_to hollywood_path, class:"card-body text-center text-reset text-decoration-none" do %>
+42:                    <%= image_tag 'top/city_night_yoruno_machi.png', class: 'card-img-top h-50' %>
+43:                    <h4 class="card-title">ハリウッド・エリア</h4>
+44:                    <h5 class="card-content">recommend by D</h5>
+45:                <% end %>
+46:            </div>
+47:        </div>
+48:    
+49:        <div class="col-md-2">
+50:            <div class="card h-100"%>
+51:                <%= link_to harrypotter_path, class:"card-body text-center text-reset text-decoration-none" do %>
+52:                    <%= image_tag 'top/mahoutsukai_white_man.png', class: 'card-img-top h-50' %>
+53:                    <h4 class="card-title">ウィザーディング・ワールド・オブ・ハリー・ポッター™</h4>
+54:                    <h5 class="card-content">recommend by E</h5>
+55:                <% end %>
+56:            </div>
+57:        </div>
+58:    
+59:        <div class="col-md-2">
+60:            <div class="card h-100"%>
+61:                <%= link_to "https://www.usj.co.jp/web/ja/jp/areas", class: "card-body text-center text-reset text-decoration-none" do %>
+62:                    <%= image_tag 'top/chikyuu.png', class: 'card-img-top h-50' %>
+63:                    <h4 class="card-title">全てのエリアを見る</h4>
+64:                    <h5 class="card-content">(公式HPに遷移します)</h5>
+65:                <% end %>
+66:            </div>
+67:        </div>
+68:    
+69:    </div>
+70:    
+71:    <% if false %>USJについて少し紹介する<% end %>
+72:    
+73:    <div class="row">
+74:    
+75:        <div class="col-md-2">
+76:            <a class="twitter-timeline" data-lang="ja" data-height="550" data-height="100%" href="https://twitter.com/USJ_Official?ref_src=twsrc%5Etfw">Tweets by USJ_Official</a>
+77:            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+78:        </div>
+79:    
+80:        <div class="col-md-2">
+81:            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CnQk-X4PyQB/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:100% !important; min-width:initial !important; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote>
+82:            <script async src="//www.instagram.com/embed.js"></script>
+83:        </div>
+84:    
+85:        <div class="col-md-4">
+86:            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26251.976948226136!2d135.42775698616992!3d34.66740095877791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0d083d5e25d%3A0x3605fe25303252aa!2z44Om44OL44OQ44O844K144Or44O744K544K_44K444Kq44O744K444Oj44OR44Oz!5e0!3m2!1sja!2sjp!4v1673436664923!5m2!1sja!2sjp" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+87:        </div>
+88:    
+89:        <div class="col-md-4">
+90:            日本以外のユニバーサルスタジオ<br>
+91:            <button class="btn btn-primary btn-lg btn-block p-2 mb-5 mt-5" href="https://www.rwsentosa.com/en/attractions/universal-studios-singapore">Universal Studios Singapore</button>
+92:            <button class="btn btn-success btn-lg btn-block p-2 mb-5" href="https://www.universalstudioshollywood.com/web/en/us">Universal Studios Hollywood</button>
+93:            <button class="btn btn-danger btn-lg btn-block p-2 mb-5" href="https://www.universalorlando.com/web/en/us/theme-parks/universal-studios-florida">Universal Studios Florida</button>
+94:            <button class="btn btn-warning btn-lg btn-block p-2 mb-5" href="https://www.universalorlando.com/web/en/us/theme-parks/islands-of-adventure">Universal's Islands of Adventure</button>
+95:        </div>
+  
+app/views/home/top.html.erb:33: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:33: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:34: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:34: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:39: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:39: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:40: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:40: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:41: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:43: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:43: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:44: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:44: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:49: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:49: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:50: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:50: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:51: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:53: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:53: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:54: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:54: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:59: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:59: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:60: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:60: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:61: unknown regexp options - www
+app/views/home/top.html.erb:61: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:63: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:63: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:64: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:64: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:73: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:75: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:75: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected integer literal, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected integer literal, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:76: unknown regexp options - twttr
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:76: syntax error, unexpected constant, expecting `end'
+app/views/home/top.html.erb:77: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:77: unknown regexp options - platfr
+app/views/home/top.html.erb:77: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:77: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:77: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:80: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:80: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:81: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:81: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:81: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:81: unknown regexp options - www
+app/views/home/top.html.erb:81: syntax error, unexpected '?'
+app/views/home/top.html.erb:81: syntax error, unexpected integer literal, expecting `end'
+app/views/home/top.html.erb:81: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:82: syntax error, unexpected '<'
+app/views/home/top.html.erb:83: unknown regexp options - dv
+app/views/home/top.html.erb:85: syntax error, unexpected '<'
+app/views/home/top.html.erb:86: syntax error, unexpected '<'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected '<'
+app/views/home/top.html.erb:87: unknown regexp options - dv
+app/views/home/top.html.erb:89: syntax error, unexpected '<'
+app/views/home/top.html.erb:91: syntax error, unexpected '<'
+app/views/home/top.html.erb:91: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:91: syntax error, unexpected constant, expecting `do' or '{' or '('
+app/views/home/top.html.erb:92: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:93: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:93: unknown regexp options - www
+app/views/home/top.html.erb:93: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:94: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:94: unknown regexp options - www
+app/views/home/top.html.erb:94: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:97: unterminated string meets end of file
+app/views/home/top.html.erb:97: syntax error, unexpected end-of-input, expecting `end'
+app/views/home/top.html.erb:33: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:33: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:34: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:34: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:39: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:39: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:40: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:40: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:41: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:43: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:43: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:44: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:44: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:49: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:49: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:50: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:50: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:51: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:53: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:53: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:54: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:54: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:59: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:59: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:60: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:60: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:61: unknown regexp options - www
+app/views/home/top.html.erb:61: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:63: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:63: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:64: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:64: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:73: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:75: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:75: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected integer literal, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected integer literal, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:76: unknown regexp options - twttr
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:76: syntax error, unexpected constant, expecting `end'
+app/views/home/top.html.erb:77: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:77: unknown regexp options - platfr
+app/views/home/top.html.erb:77: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:77: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:77: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:80: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:80: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:81: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:81: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:81: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:81: unknown regexp options - www
+app/views/home/top.html.erb:81: syntax error, unexpected '?'
+app/views/home/top.html.erb:81: syntax error, unexpected integer literal, expecting `end'
+app/views/home/top.html.erb:81: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:82: syntax error, unexpected '<'
+app/views/home/top.html.erb:83: unknown regexp options - dv
+app/views/home/top.html.erb:85: syntax error, unexpected '<'
+app/views/home/top.html.erb:86: syntax error, unexpected '<'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected '<'
+app/views/home/top.html.erb:87: unknown regexp options - dv
+app/views/home/top.html.erb:89: syntax error, unexpected '<'
+app/views/home/top.html.erb:91: syntax error, unexpected '<'
+app/views/home/top.html.erb:91: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:91: syntax error, unexpected constant, expecting `do' or '{' or '('
+app/views/home/top.html.erb:92: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:93: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:93: unknown regexp options - www
+app/views/home/top.html.erb:93: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:94: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:94: unknown regexp options - www
+app/views/home/top.html.erb:94: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:97: unterminated string meets end of file
+app/views/home/top.html.erb:97: syntax error, unexpected end-of-input, expecting `end'
+app/views/home/top.html.erb:33: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:33: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:34: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:34: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:39: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:39: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:40: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:40: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:41: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:43: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:43: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:44: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:44: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:49: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:49: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:50: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:50: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:51: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:53: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:53: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:54: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:54: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:59: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:59: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:60: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:60: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:61: unknown regexp options - www
+app/views/home/top.html.erb:61: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:63: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:63: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:64: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:64: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:73: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:75: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:75: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected integer literal, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected integer literal, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:76: unknown regexp options - twttr
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:76: syntax error, unexpected constant, expecting `end'
+app/views/home/top.html.erb:77: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:77: unknown regexp options - platfr
+app/views/home/top.html.erb:77: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:77: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:77: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:80: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:80: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:81: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:81: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:81: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:81: unknown regexp options - www
+app/views/home/top.html.erb:81: syntax error, unexpected '?'
+app/views/home/top.html.erb:81: syntax error, unexpected integer literal, expecting `end'
+app/views/home/top.html.erb:81: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:82: syntax error, unexpected '<'
+app/views/home/top.html.erb:83: unknown regexp options - dv
+app/views/home/top.html.erb:85: syntax error, unexpected '<'
+app/views/home/top.html.erb:86: syntax error, unexpected '<'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected '<'
+app/views/home/top.html.erb:87: unknown regexp options - dv
+app/views/home/top.html.erb:89: syntax error, unexpected '<'
+app/views/home/top.html.erb:91: syntax error, unexpected '<'
+app/views/home/top.html.erb:91: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:91: syntax error, unexpected constant, expecting `do' or '{' or '('
+app/views/home/top.html.erb:92: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:93: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:93: unknown regexp options - www
+app/views/home/top.html.erb:93: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:94: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:94: unknown regexp options - www
+app/views/home/top.html.erb:94: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:97: unterminated string meets end of file
+app/views/home/top.html.erb:97: syntax error, unexpected end-of-input, expecting `end'
+app/views/home/top.html.erb:33: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:33: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:34: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:34: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:39: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:39: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:40: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:40: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:41: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:43: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:43: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:44: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:44: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:49: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:49: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:50: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:50: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:51: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:53: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:53: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:54: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:54: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:59: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:59: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:60: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:60: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:61: unknown regexp options - www
+app/views/home/top.html.erb:61: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:63: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:63: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:64: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:64: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:73: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:75: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:75: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected integer literal, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected integer literal, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:76: unknown regexp options - twttr
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:76: syntax error, unexpected constant, expecting `end'
+app/views/home/top.html.erb:77: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:77: unknown regexp options - platfr
+app/views/home/top.html.erb:77: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:77: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:77: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:80: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:80: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:81: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:81: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:81: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:81: unknown regexp options - www
+app/views/home/top.html.erb:81: syntax error, unexpected '?'
+app/views/home/top.html.erb:81: syntax error, unexpected integer literal, expecting `end'
+app/views/home/top.html.erb:81: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:82: syntax error, unexpected '<'
+app/views/home/top.html.erb:83: unknown regexp options - dv
+app/views/home/top.html.erb:85: syntax error, unexpected '<'
+app/views/home/top.html.erb:86: syntax error, unexpected '<'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected '<'
+app/views/home/top.html.erb:87: unknown regexp options - dv
+app/views/home/top.html.erb:89: syntax error, unexpected '<'
+app/views/home/top.html.erb:91: syntax error, unexpected '<'
+app/views/home/top.html.erb:91: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:91: syntax error, unexpected constant, expecting `do' or '{' or '('
+app/views/home/top.html.erb:92: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:93: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:93: unknown regexp options - www
+app/views/home/top.html.erb:93: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:94: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:94: unknown regexp options - www
+app/views/home/top.html.erb:94: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:97: unterminated string meets end of file
+app/views/home/top.html.erb:97: syntax error, unexpected end-of-input, expecting `end'
+app/views/home/top.html.erb:33: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:33: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:34: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:34: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:39: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:39: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:40: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:40: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:41: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:43: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:43: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:44: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:44: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:49: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:49: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:50: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:50: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:51: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:53: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:53: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:54: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:54: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:59: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:59: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:60: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:60: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:61: unknown regexp options - www
+app/views/home/top.html.erb:61: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:63: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:63: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:64: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:64: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:73: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:75: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:75: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected integer literal, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected integer literal, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:76: unknown regexp options - twttr
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:76: syntax error, unexpected constant, expecting `end'
+app/views/home/top.html.erb:77: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:77: unknown regexp options - platfr
+app/views/home/top.html.erb:77: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:77: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:77: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:80: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:80: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:81: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:81: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:81: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:81: unknown regexp options - www
+app/views/home/top.html.erb:81: syntax error, unexpected '?'
+app/views/home/top.html.erb:81: syntax error, unexpected integer literal, expecting `end'
+app/views/home/top.html.erb:81: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:82: syntax error, unexpected '<'
+app/views/home/top.html.erb:83: unknown regexp options - dv
+app/views/home/top.html.erb:85: syntax error, unexpected '<'
+app/views/home/top.html.erb:86: syntax error, unexpected '<'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected '<'
+app/views/home/top.html.erb:87: unknown regexp options - dv
+app/views/home/top.html.erb:89: syntax error, unexpected '<'
+app/views/home/top.html.erb:91: syntax error, unexpected '<'
+app/views/home/top.html.erb:91: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:91: syntax error, unexpected constant, expecting `do' or '{' or '('
+app/views/home/top.html.erb:92: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:93: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:93: unknown regexp options - www
+app/views/home/top.html.erb:93: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:94: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:94: unknown regexp options - www
+app/views/home/top.html.erb:94: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:97: unterminated string meets end of file
+app/views/home/top.html.erb:97: syntax error, unexpected end-of-input, expecting `end'
+app/views/home/top.html.erb:33: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:33: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:34: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:34: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:39: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:39: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:40: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:40: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:41: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:41: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:43: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:43: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:44: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:44: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:49: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:49: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:50: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:50: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:51: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:51: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:53: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:53: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:54: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:54: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:59: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:59: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:60: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:60: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:61: unknown regexp options - www
+app/views/home/top.html.erb:61: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:61: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:63: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:63: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:64: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:64: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:73: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:75: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:75: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected integer literal, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected integer literal, expecting `end'
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:76: unknown regexp options - twttr
+app/views/home/top.html.erb:76: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:76: syntax error, unexpected constant, expecting `end'
+app/views/home/top.html.erb:77: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:77: unknown regexp options - platfr
+app/views/home/top.html.erb:77: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:77: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:77: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:80: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:80: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:81: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:81: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:81: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:81: unknown regexp options - www
+app/views/home/top.html.erb:81: syntax error, unexpected '?'
+app/views/home/top.html.erb:81: syntax error, unexpected integer literal, expecting `end'
+app/views/home/top.html.erb:81: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:82: syntax error, unexpected '<'
+app/views/home/top.html.erb:83: unknown regexp options - dv
+app/views/home/top.html.erb:85: syntax error, unexpected '<'
+app/views/home/top.html.erb:86: syntax error, unexpected '<'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:86: syntax error, unexpected '<'
+app/views/home/top.html.erb:87: unknown regexp options - dv
+app/views/home/top.html.erb:89: syntax error, unexpected '<'
+app/views/home/top.html.erb:91: syntax error, unexpected '<'
+app/views/home/top.html.erb:91: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:91: syntax error, unexpected constant, expecting `do' or '{' or '('
+app/views/home/top.html.erb:92: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:93: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:93: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:93: unknown regexp options - www
+app/views/home/top.html.erb:93: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:94: syntax error, unexpected string literal, expecting `end'
+app/views/home/top.html.erb:94: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:94: unknown regexp options - www
+app/views/home/top.html.erb:94: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:97: unterminated string meets end of file
+app/views/home/top.html.erb:97: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:36:48 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 10.0ms | Allocations: 6408)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 9941)
+Completed 200 OK in 16ms (Views: 14.5ms | Allocations: 11315)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:36:51 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.0ms | Allocations: 3088)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 6427)
+Completed 200 OK in 7ms (Views: 6.4ms | Allocations: 6915)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:36:52 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.0ms | Allocations: 3074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 6407)
+Completed 200 OK in 8ms (Views: 7.6ms | Allocations: 6847)
+
+
+Started GET "/newyork" for 172.28.0.1 at 2023-01-11 13:36:54 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#newyork as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/newyork.html.erb within layouts/application
+  Rendered home/newyork.html.erb within layouts/application (Duration: 0.5ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 3502)
+Completed 200 OK in 6ms (Views: 4.7ms | Allocations: 4072)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:37:40 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.3ms | Allocations: 3074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 6407)
+Completed 200 OK in 7ms (Views: 6.9ms | Allocations: 6847)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:38:36 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 4.2ms | Allocations: 3868)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 7103)
+Completed 200 OK in 8ms (Views: 7.7ms | Allocations: 7544)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:40:49 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.3ms | Allocations: 3901)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 7533)
+Completed 200 OK in 9ms (Views: 7.6ms | Allocations: 8855)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:41:03 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.7ms | Allocations: 3904)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 7536)
+Completed 200 OK in 10ms (Views: 8.6ms | Allocations: 8906)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:41:09 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.9ms | Allocations: 3910)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 7536)
+Completed 200 OK in 10ms (Views: 9.4ms | Allocations: 8900)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:41:10 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.7ms | Allocations: 3030)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 6363)
+Completed 200 OK in 7ms (Views: 6.9ms | Allocations: 6850)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:41:37 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.8ms | Allocations: 3912)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 7538)
+Completed 200 OK in 10ms (Views: 8.4ms | Allocations: 8856)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:42:19 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 4.9ms | Allocations: 3924)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 7556)
+Completed 200 OK in 14ms (Views: 13.2ms | Allocations: 8926)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:43:22 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.6ms | Allocations: 3906)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 7538)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 8908)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:43:26 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.8ms | Allocations: 3010)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 6343)
+Completed 200 OK in 9ms (Views: 8.5ms | Allocations: 6830)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:43:40 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.5ms | Allocations: 3887)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 7513)
+Completed 200 OK in 9ms (Views: 8.0ms | Allocations: 8830)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:43:54 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.5ms | Allocations: 3911)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 7537)
+Completed 200 OK in 9ms (Views: 7.7ms | Allocations: 8902)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:44:08 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 4.1ms | Allocations: 3930)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 7562)
+Completed 200 OK in 13ms (Views: 8.3ms | Allocations: 8932)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:44:15 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 4.3ms | Allocations: 3927)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 7559)
+Completed 200 OK in 10ms (Views: 8.8ms | Allocations: 8929)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:44:28 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 4.0ms | Allocations: 3909)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 7536)
+Completed 200 OK in 10ms (Views: 8.9ms | Allocations: 8900)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:44:43 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 4.0ms | Allocations: 3911)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 7537)
+Completed 200 OK in 9ms (Views: 8.5ms | Allocations: 8901)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:44:45 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.8ms | Allocations: 3030)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 6363)
+Completed 200 OK in 9ms (Views: 8.5ms | Allocations: 6851)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:49:41 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.7ms | Allocations: 3882)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 7515)
+Completed 200 OK in 10ms (Views: 9.0ms | Allocations: 8838)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:49:43 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.4ms | Allocations: 3003)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 6340)
+Completed 200 OK in 7ms (Views: 6.4ms | Allocations: 6828)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:55:23 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 9.7ms | Allocations: 5428)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 8663)
+Completed 200 OK in 14ms (Views: 13.6ms | Allocations: 9103)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:56:01 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 35.7ms | Allocations: 3865)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.7ms | Allocations: 7501)
+Completed 200 OK in 51ms (Views: 46.2ms | Allocations: 8824)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:56:41 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 4.4ms | Allocations: 3874)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 7501)
+Completed 200 OK in 10ms (Views: 9.7ms | Allocations: 8870)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:56:45 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.6ms | Allocations: 3003)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 6341)
+Completed 200 OK in 6ms (Views: 5.8ms | Allocations: 6829)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:56:53 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 5.0ms | Allocations: 3865)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 7493)
+Completed 200 OK in 11ms (Views: 10.2ms | Allocations: 8816)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:57:21 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.4ms | Allocations: 3873)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 7503)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 8868)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:57:22 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2990)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 6335)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 6822)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:57:23 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2990)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 6324)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 6764)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:57:35 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.8ms | Allocations: 3865)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 7491)
+Completed 200 OK in 9ms (Views: 8.6ms | Allocations: 8812)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:58:04 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 4.3ms | Allocations: 3882)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 7514)
+Completed 200 OK in 11ms (Views: 9.6ms | Allocations: 8884)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 13:59:38 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.4ms | Allocations: 3875)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 7501)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 8870)
+
+
+Started GET "/newyork" for 172.28.0.1 at 2023-01-11 14:07:58 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#newyork as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/newyork.html.erb within layouts/application
+  Rendered home/newyork.html.erb within layouts/application (Duration: 0.4ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 3505)
+Completed 200 OK in 5ms (Views: 4.2ms | Allocations: 4123)
+
+
+Started GET "/jurassic" for 172.28.0.1 at 2023-01-11 14:08:00 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#jurassic as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/jurassic.html.erb within layouts/application
+  Rendered home/jurassic.html.erb within layouts/application (Duration: 1.4ms | Allocations: 465)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 4024)
+Completed 200 OK in 12ms (Views: 10.4ms | Allocations: 4594)
+
+
