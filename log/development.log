@@ -2689,3 +2689,2621 @@ Processing by HomeController#top as HTML
 Completed 200 OK in 5ms (Views: 4.1ms | Allocations: 4320)
 
 
+Started GET "/" for 172.28.0.1 at 2022-12-22 12:38:26 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 7.5ms | Allocations: 7756)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 11732)
+Completed 200 OK in 17ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 15457)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:07:33 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 369)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 7233)
+Completed 200 OK in 24ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 10841)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:15:17 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 141)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 3977)
+Completed 200 OK in 5ms (Views: 4.5ms | Allocations: 5434)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:21:29 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 150)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 3984)
+Completed 200 OK in 6ms (Views: 4.9ms | Allocations: 5348)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:21:31 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 3437)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 3932)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:22:42 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 4.4ms | Allocations: 4576)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 4659)
+Completed 500 Internal Server Error in 6ms (Allocations: 5950)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>公立大生が選ぶ！USJオススメエリア５選</h1>
+    2: 
+    3: <div class="row">
+    4:   <% @clips.each do |clip| %>
+    5:     <div class="col-md-3">
+    6:       <div class="card">
+    7:         <%= image_tag clip.image, class: 'card-img-top' %>
+  
+app/views/home/top.html.erb:4
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:28:03 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1184)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1259)
+Completed 500 Internal Server Error in 3ms (Allocations: 2597)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>公立大生が選ぶ！USJオススメエリア５選</h1>
+
+<div class="col-md-2">
+<%#div class="card md-3"%>
+<div class="card"%>
+<%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+<div class="card-body text-center">
+<h4 class="card-title">たいとる</h4>
+<p class="card-text">こんてんつ</p>
+<a href="#" class="btn btn-primary">詳細を見る</a>
+</div>
+
+</div>
+</div>
+<%end%>
+):
+1:    <h1>公立大生が選ぶ！USJオススメエリア５選</h1>
+2:    
+3:    <div class="col-md-2">
+4:    <%#div class="card md-3"%>
+5:    <div class="card"%>
+6:    <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+7:    <div class="card-body text-center">
+8:    <h4 class="card-title">たいとる</h4>
+9:    <p class="card-text">こんてんつ</p>
+10:    <a href="#" class="btn btn-primary">詳細を見る</a>
+11:    </div>
+12:    
+13:    </div>
+14:    </div>
+15:    <%end%>
+  
+app/views/home/top.html.erb:17: syntax error, unexpected `end', expecting end-of-input
+app/views/home/top.html.erb:17: syntax error, unexpected `end', expecting end-of-input
+app/views/home/top.html.erb:17: syntax error, unexpected `end', expecting end-of-input
+app/views/home/top.html.erb:17: syntax error, unexpected `end', expecting end-of-input
+app/views/home/top.html.erb:17: syntax error, unexpected `end', expecting end-of-input
+app/views/home/top.html.erb:17: syntax error, unexpected `end', expecting end-of-input
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:28:19 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 193)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 4035)
+Completed 200 OK in 8ms (Views: 6.6ms | Allocations: 5409)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:29:07 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 395)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 4229)
+Completed 200 OK in 6ms (Views: 5.4ms | Allocations: 5603)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:29:59 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1355)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 1430)
+Completed 500 Internal Server Error in 3ms (Allocations: 2751)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>公立大生が選ぶ！USJオススメエリア５選</h1>
+
+<div class="col-md-2">
+<div class="card"%>
+<%img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+<div class="card-body text-center">
+<h4 class="card-title">たいとる</h4>
+<p class="card-text">こんてんつ</p>
+<a href="#" class="btn btn-primary">詳細を見る</a>
+</div>
+</div>
+<%#div class="card md-3"%>
+<div class="card"%>
+<%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+<div class="card-body text-center">
+<h4 class="card-title">たいとる</h4>
+<p class="card-text">こんてんつ</p>
+<a href="#" class="btn btn-primary">詳細を見る</a>
+</div>
+</div>
+<%#div class="card md-3"%>
+<div class="card"%>
+<%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+<div class="card-body text-center">
+<h4 class="card-title">たいとる</h4>
+<p class="card-text">こんてんつ</p>
+<a href="#" class="btn btn-primary">詳細を見る</a>
+</div>
+</div>
+<%#div class="card md-3"%>
+<div class="card"%>
+<%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+<div class="card-body text-center">
+<h4 class="card-title">たいとる</h4>
+<p class="card-text">こんてんつ</p>
+<a href="#" class="btn btn-primary">詳細を見る</a>
+</div>
+</div>
+<%#div class="card md-3"%>
+<div class="card"%>
+<%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+<div class="card-body text-center">
+<h4 class="card-title">たいとる</h4>
+<p class="card-text">こんてんつ</p>
+<a href="#" class="btn btn-primary">詳細を見る</a>
+</div>
+</div>
+<%#div class="card md-3"%>
+<div class="card"%>
+<%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+<div class="card-body text-center">
+<h4 class="card-title">たいとる</h4>
+<p class="card-text">こんてんつ</p>
+<a href="#" class="btn btn-primary">詳細を見る</a>
+</div>
+</div>
+
+
+
+
+</div>
+):
+1:    <h1>公立大生が選ぶ！USJオススメエリア５選</h1>
+2:    
+3:    <div class="col-md-2">
+4:    <div class="card"%>
+5:    <%img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+6:    <div class="card-body text-center">
+7:    <h4 class="card-title">たいとる</h4>
+8:    <p class="card-text">こんてんつ</p>
+9:    <a href="#" class="btn btn-primary">詳細を見る</a>
+10:    </div>
+11:    </div>
+12:    <%#div class="card md-3"%>
+13:    <div class="card"%>
+14:    <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+15:    <div class="card-body text-center">
+16:    <h4 class="card-title">たいとる</h4>
+17:    <p class="card-text">こんてんつ</p>
+18:    <a href="#" class="btn btn-primary">詳細を見る</a>
+19:    </div>
+20:    </div>
+21:    <%#div class="card md-3"%>
+22:    <div class="card"%>
+23:    <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+24:    <div class="card-body text-center">
+25:    <h4 class="card-title">たいとる</h4>
+26:    <p class="card-text">こんてんつ</p>
+27:    <a href="#" class="btn btn-primary">詳細を見る</a>
+28:    </div>
+29:    </div>
+30:    <%#div class="card md-3"%>
+31:    <div class="card"%>
+32:    <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+33:    <div class="card-body text-center">
+34:    <h4 class="card-title">たいとる</h4>
+35:    <p class="card-text">こんてんつ</p>
+36:    <a href="#" class="btn btn-primary">詳細を見る</a>
+37:    </div>
+38:    </div>
+39:    <%#div class="card md-3"%>
+40:    <div class="card"%>
+41:    <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+42:    <div class="card-body text-center">
+43:    <h4 class="card-title">たいとる</h4>
+44:    <p class="card-text">こんてんつ</p>
+45:    <a href="#" class="btn btn-primary">詳細を見る</a>
+46:    </div>
+47:    </div>
+48:    <%#div class="card md-3"%>
+49:    <div class="card"%>
+50:    <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+51:    <div class="card-body text-center">
+52:    <h4 class="card-title">たいとる</h4>
+53:    <p class="card-text">こんてんつ</p>
+54:    <a href="#" class="btn btn-primary">詳細を見る</a>
+55:    </div>
+56:    </div>
+57:    
+58:    
+59:    
+60:    
+61:    </div>
+  
+app/views/home/top.html.erb:5: syntax error, unexpected '='
+app/views/home/top.html.erb:5: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:5: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:5: syntax error, unexpected '='
+app/views/home/top.html.erb:5: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:5: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:5: syntax error, unexpected '='
+app/views/home/top.html.erb:5: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:5: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:5: syntax error, unexpected '='
+app/views/home/top.html.erb:5: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:5: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:5: syntax error, unexpected '='
+app/views/home/top.html.erb:5: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:5: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:5: syntax error, unexpected '='
+app/views/home/top.html.erb:5: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:5: syntax error, unexpected local variable or method, expecting `end'
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:30:15 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 378)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 4220)
+Completed 200 OK in 6ms (Views: 5.3ms | Allocations: 5594)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:30:48 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 381)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 4223)
+Completed 200 OK in 6ms (Views: 5.5ms | Allocations: 5593)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:31:07 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 303)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 4135)
+Completed 200 OK in 6ms (Views: 4.8ms | Allocations: 5499)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:31:08 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 3434)
+Completed 200 OK in 5ms (Views: 4.5ms | Allocations: 3921)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:31:08 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.2ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 3434)
+Completed 200 OK in 5ms (Views: 4.1ms | Allocations: 3874)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:31:08 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.2ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 4859)
+Completed 200 OK in 7ms (Views: 6.3ms | Allocations: 5306)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:31:08 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 3434)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 3874)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:32:19 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.7ms | Allocations: 305)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 4137)
+Completed 200 OK in 6ms (Views: 5.5ms | Allocations: 5456)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:32:36 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 305)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 4137)
+Completed 200 OK in 6ms (Views: 4.8ms | Allocations: 5501)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:32:36 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.2ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 3434)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 3922)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:33:42 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 311)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 4153)
+Completed 200 OK in 6ms (Views: 4.9ms | Allocations: 5475)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:34:07 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 316)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 4158)
+Completed 200 OK in 6ms (Views: 5.7ms | Allocations: 5528)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:34:25 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 182)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 4014)
+Completed 200 OK in 6ms (Views: 5.0ms | Allocations: 5378)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:34:26 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 3434)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 3921)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:34:26 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 3434)
+Completed 200 OK in 4ms (Views: 3.4ms | Allocations: 3874)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:35:15 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 322)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 4154)
+Completed 200 OK in 6ms (Views: 4.9ms | Allocations: 5471)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:35:26 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 322)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 4154)
+Completed 200 OK in 6ms (Views: 4.8ms | Allocations: 5518)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:35:26 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 3434)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 3921)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:35:27 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 3434)
+Completed 200 OK in 5ms (Views: 4.8ms | Allocations: 3874)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:35:53 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.7ms | Allocations: 344)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 4176)
+Completed 200 OK in 6ms (Views: 5.4ms | Allocations: 5494)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:36:00 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 324)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 4166)
+Completed 200 OK in 6ms (Views: 5.5ms | Allocations: 5536)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:36:58 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 324)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 4166)
+Completed 200 OK in 6ms (Views: 5.2ms | Allocations: 5536)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:37:54 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1298)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 1373)
+Completed 500 Internal Server Error in 3ms (Allocations: 2694)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>公立大生が選ぶ！USJオススメエリア５選</h1>
+
+
+<div class="row">
+    <div class="col-md-2">
+        <div class="card"%>
+            <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+            <div class="card-body text-center">
+                <h4 class="card-title">たいとる</h4>
+                <p class="card-text">こんてんつ</p>
+                <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="card"%>
+            <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+            <div class="card-body text-center">
+                <h4 class="card-title">たいとる</h4>
+                <p class="card-text">こんてんつ</p>
+                <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="card"%>
+            <%img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+            <div class="card-body text-center">
+                <h4 class="card-title">たいとる</h4>
+                <p class="card-text">こんてんつ</p>
+                <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="card"%>
+            <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+            <div class="card-body text-center">
+                <h4 class="card-title">たいとる</h4>
+                <p class="card-text">こんてんつ</p>
+                <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="card"%>
+            <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+            <div class="card-body text-center">
+                <h4 class="card-title">たいとる</h4>
+                <p class="card-text">こんてんつ</p>
+                <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="card"%>
+            <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+            <div class="card-body text-center">
+                <h4 class="card-title">たいとる</h4>
+                <p class="card-text">こんてんつ</p>
+                <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+):
+1:    <h1>公立大生が選ぶ！USJオススメエリア５選</h1>
+2:    
+3:    
+4:    <div class="row">
+5:        <div class="col-md-2">
+6:            <div class="card"%>
+7:                <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+8:                <div class="card-body text-center">
+9:                    <h4 class="card-title">たいとる</h4>
+10:                    <p class="card-text">こんてんつ</p>
+11:                    <a href="#" class="btn btn-primary">詳細を見る</a>
+12:                </div>
+13:            </div>
+14:        </div>
+15:        <div class="col-md-2">
+16:            <div class="card"%>
+17:                <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+18:                <div class="card-body text-center">
+19:                    <h4 class="card-title">たいとる</h4>
+20:                    <p class="card-text">こんてんつ</p>
+21:                    <a href="#" class="btn btn-primary">詳細を見る</a>
+22:                </div>
+23:            </div>
+24:        </div>
+25:        <div class="col-md-2">
+26:            <div class="card"%>
+27:                <%img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+28:                <div class="card-body text-center">
+29:                    <h4 class="card-title">たいとる</h4>
+30:                    <p class="card-text">こんてんつ</p>
+31:                    <a href="#" class="btn btn-primary">詳細を見る</a>
+32:                </div>
+33:            </div>
+34:        </div>
+35:        <div class="col-md-2">
+36:            <div class="card"%>
+37:                <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+38:                <div class="card-body text-center">
+39:                    <h4 class="card-title">たいとる</h4>
+40:                    <p class="card-text">こんてんつ</p>
+41:                    <a href="#" class="btn btn-primary">詳細を見る</a>
+42:                </div>
+43:            </div>
+44:        </div>
+45:        <div class="col-md-2">
+46:            <div class="card"%>
+47:                <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+48:                <div class="card-body text-center">
+49:                    <h4 class="card-title">たいとる</h4>
+50:                    <p class="card-text">こんてんつ</p>
+51:                    <a href="#" class="btn btn-primary">詳細を見る</a>
+52:                </div>
+53:            </div>
+54:        </div>
+55:        <div class="col-md-2">
+56:            <div class="card"%>
+57:                <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+58:                <div class="card-body text-center">
+59:                    <h4 class="card-title">たいとる</h4>
+60:                    <p class="card-text">こんてんつ</p>
+61:                    <a href="#" class="btn btn-primary">詳細を見る</a>
+62:                </div>
+63:            </div>
+64:        </div>
+65:    
+66:    
+67:    </div>
+  
+app/views/home/top.html.erb:27: syntax error, unexpected '='
+app/views/home/top.html.erb:27: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:27: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:27: syntax error, unexpected '='
+app/views/home/top.html.erb:27: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:27: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:27: syntax error, unexpected '='
+app/views/home/top.html.erb:27: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:27: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:27: syntax error, unexpected '='
+app/views/home/top.html.erb:27: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:27: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:27: syntax error, unexpected '='
+app/views/home/top.html.erb:27: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:27: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:27: syntax error, unexpected '='
+app/views/home/top.html.erb:27: syntax error, unexpected local variable or method, expecting `end'
+app/views/home/top.html.erb:27: syntax error, unexpected local variable or method, expecting `end'
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:40:51 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1410)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1485)
+Completed 500 Internal Server Error in 3ms (Allocations: 2816)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>公立大生が選ぶ！USJオススメエリア５選</h1>
+
+
+<div class="row">
+    <div class="col-md-2">
+        <div class="card"%>
+            <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+            <div class="card-body text-center">
+                <h4 class="card-title">たいとる</h4>
+                <p class="card-text">こんてんつ</p>
+                <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+            <div class="card-body text-center">
+                <h4 class="card-title">たいとる</h4>
+                <p class="card-text">こんてんつ</p>
+                <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+        <%= image_tag 'top/nurie.png, class: 'card-img-top' %>
+            <div class="card-body text-center">
+                <h4 class="card-title">たいとる</h4>
+                <p class="card-text">こんてんつ</p>
+                <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+            <div class="card-body text-center">
+                <h4 class="card-title">たいとる</h4>
+                <p class="card-text">こんてんつ</p>
+                <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+            <div class="card-body text-center">
+                <h4 class="card-title">たいとる</h4>
+                <p class="card-text">こんてんつ</p>
+                <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+            <div class="card-body text-center">
+                <h4 class="card-title">たいとる</h4>
+                <p class="card-text">こんてんつ</p>
+                <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+):
+1:    <h1>公立大生が選ぶ！USJオススメエリア５選</h1>
+2:    
+3:    
+4:    <div class="row">
+5:        <div class="col-md-2">
+6:            <div class="card"%>
+7:                <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+8:                <div class="card-body text-center">
+9:                    <h4 class="card-title">たいとる</h4>
+10:                    <p class="card-text">こんてんつ</p>
+11:                    <a href="#" class="btn btn-primary">詳細を見る</a>
+12:                </div>
+13:            </div>
+14:        </div>
+15:    
+16:        <div class="col-md-2">
+17:            <div class="card"%>
+18:                <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+19:                <div class="card-body text-center">
+20:                    <h4 class="card-title">たいとる</h4>
+21:                    <p class="card-text">こんてんつ</p>
+22:                    <a href="#" class="btn btn-primary">詳細を見る</a>
+23:                </div>
+24:            </div>
+25:        </div>
+26:    
+27:        <div class="col-md-2">
+28:            <div class="card"%>
+29:            <%= image_tag 'top/nurie.png, class: 'card-img-top' %>
+30:                <div class="card-body text-center">
+31:                    <h4 class="card-title">たいとる</h4>
+32:                    <p class="card-text">こんてんつ</p>
+33:                    <a href="#" class="btn btn-primary">詳細を見る</a>
+34:                </div>
+35:            </div>
+36:        </div>
+37:    
+38:        <div class="col-md-2">
+39:            <div class="card"%>
+40:                <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+41:                <div class="card-body text-center">
+42:                    <h4 class="card-title">たいとる</h4>
+43:                    <p class="card-text">こんてんつ</p>
+44:                    <a href="#" class="btn btn-primary">詳細を見る</a>
+45:                </div>
+46:            </div>
+47:        </div>
+48:    
+49:        <div class="col-md-2">
+50:            <div class="card"%>
+51:                <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+52:                <div class="card-body text-center">
+53:                    <h4 class="card-title">たいとる</h4>
+54:                    <p class="card-text">こんてんつ</p>
+55:                    <a href="#" class="btn btn-primary">詳細を見る</a>
+56:                </div>
+57:            </div>
+58:        </div>
+59:    
+60:        <div class="col-md-2">
+61:            <div class="card"%>
+62:                <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+63:                <div class="card-body text-center">
+64:                    <h4 class="card-title">たいとる</h4>
+65:                    <p class="card-text">こんてんつ</p>
+66:                    <a href="#" class="btn btn-primary">詳細を見る</a>
+67:                </div>
+68:            </div>
+69:        </div>
+70:    
+71:    
+72:    </div>
+  
+app/views/home/top.html.erb:29: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:30: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:31: syntax error, unexpected '<'
+app/views/home/top.html.erb:32: unknown regexp option - p
+app/views/home/top.html.erb:33: syntax error, unexpected '<'
+app/views/home/top.html.erb:33: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:34: unknown regexp options - dv
+app/views/home/top.html.erb:35: syntax error, unexpected '<'
+app/views/home/top.html.erb:36: unknown regexp options - dv
+app/views/home/top.html.erb:38: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '>'
+app/views/home/top.html.erb:41: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:42: syntax error, unexpected '<'
+app/views/home/top.html.erb:43: unknown regexp option - p
+app/views/home/top.html.erb:44: syntax error, unexpected '<'
+app/views/home/top.html.erb:44: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:45: unknown regexp options - dv
+app/views/home/top.html.erb:46: syntax error, unexpected '<'
+app/views/home/top.html.erb:47: unknown regexp options - dv
+app/views/home/top.html.erb:49: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '>'
+app/views/home/top.html.erb:52: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:53: syntax error, unexpected '<'
+app/views/home/top.html.erb:54: unknown regexp option - p
+app/views/home/top.html.erb:55: syntax error, unexpected '<'
+app/views/home/top.html.erb:55: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:56: unknown regexp options - dv
+app/views/home/top.html.erb:57: syntax error, unexpected '<'
+app/views/home/top.html.erb:58: unknown regexp options - dv
+app/views/home/top.html.erb:60: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '>'
+app/views/home/top.html.erb:63: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:64: syntax error, unexpected '<'
+app/views/home/top.html.erb:65: unknown regexp option - p
+app/views/home/top.html.erb:66: syntax error, unexpected '<'
+app/views/home/top.html.erb:66: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:67: unknown regexp options - dv
+app/views/home/top.html.erb:68: syntax error, unexpected '<'
+app/views/home/top.html.erb:69: unknown regexp options - dv
+app/views/home/top.html.erb:72: syntax error, unexpected '<'
+app/views/home/top.html.erb:74: unterminated regexp meets end of file
+app/views/home/top.html.erb:74: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:30: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:31: syntax error, unexpected '<'
+app/views/home/top.html.erb:32: unknown regexp option - p
+app/views/home/top.html.erb:33: syntax error, unexpected '<'
+app/views/home/top.html.erb:33: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:34: unknown regexp options - dv
+app/views/home/top.html.erb:35: syntax error, unexpected '<'
+app/views/home/top.html.erb:36: unknown regexp options - dv
+app/views/home/top.html.erb:38: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '>'
+app/views/home/top.html.erb:41: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:42: syntax error, unexpected '<'
+app/views/home/top.html.erb:43: unknown regexp option - p
+app/views/home/top.html.erb:44: syntax error, unexpected '<'
+app/views/home/top.html.erb:44: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:45: unknown regexp options - dv
+app/views/home/top.html.erb:46: syntax error, unexpected '<'
+app/views/home/top.html.erb:47: unknown regexp options - dv
+app/views/home/top.html.erb:49: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '>'
+app/views/home/top.html.erb:52: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:53: syntax error, unexpected '<'
+app/views/home/top.html.erb:54: unknown regexp option - p
+app/views/home/top.html.erb:55: syntax error, unexpected '<'
+app/views/home/top.html.erb:55: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:56: unknown regexp options - dv
+app/views/home/top.html.erb:57: syntax error, unexpected '<'
+app/views/home/top.html.erb:58: unknown regexp options - dv
+app/views/home/top.html.erb:60: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '>'
+app/views/home/top.html.erb:63: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:64: syntax error, unexpected '<'
+app/views/home/top.html.erb:65: unknown regexp option - p
+app/views/home/top.html.erb:66: syntax error, unexpected '<'
+app/views/home/top.html.erb:66: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:67: unknown regexp options - dv
+app/views/home/top.html.erb:68: syntax error, unexpected '<'
+app/views/home/top.html.erb:69: unknown regexp options - dv
+app/views/home/top.html.erb:72: syntax error, unexpected '<'
+app/views/home/top.html.erb:74: unterminated regexp meets end of file
+app/views/home/top.html.erb:74: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:30: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:31: syntax error, unexpected '<'
+app/views/home/top.html.erb:32: unknown regexp option - p
+app/views/home/top.html.erb:33: syntax error, unexpected '<'
+app/views/home/top.html.erb:33: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:34: unknown regexp options - dv
+app/views/home/top.html.erb:35: syntax error, unexpected '<'
+app/views/home/top.html.erb:36: unknown regexp options - dv
+app/views/home/top.html.erb:38: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '>'
+app/views/home/top.html.erb:41: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:42: syntax error, unexpected '<'
+app/views/home/top.html.erb:43: unknown regexp option - p
+app/views/home/top.html.erb:44: syntax error, unexpected '<'
+app/views/home/top.html.erb:44: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:45: unknown regexp options - dv
+app/views/home/top.html.erb:46: syntax error, unexpected '<'
+app/views/home/top.html.erb:47: unknown regexp options - dv
+app/views/home/top.html.erb:49: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '>'
+app/views/home/top.html.erb:52: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:53: syntax error, unexpected '<'
+app/views/home/top.html.erb:54: unknown regexp option - p
+app/views/home/top.html.erb:55: syntax error, unexpected '<'
+app/views/home/top.html.erb:55: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:56: unknown regexp options - dv
+app/views/home/top.html.erb:57: syntax error, unexpected '<'
+app/views/home/top.html.erb:58: unknown regexp options - dv
+app/views/home/top.html.erb:60: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '>'
+app/views/home/top.html.erb:63: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:64: syntax error, unexpected '<'
+app/views/home/top.html.erb:65: unknown regexp option - p
+app/views/home/top.html.erb:66: syntax error, unexpected '<'
+app/views/home/top.html.erb:66: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:67: unknown regexp options - dv
+app/views/home/top.html.erb:68: syntax error, unexpected '<'
+app/views/home/top.html.erb:69: unknown regexp options - dv
+app/views/home/top.html.erb:72: syntax error, unexpected '<'
+app/views/home/top.html.erb:74: unterminated regexp meets end of file
+app/views/home/top.html.erb:74: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:30: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:31: syntax error, unexpected '<'
+app/views/home/top.html.erb:32: unknown regexp option - p
+app/views/home/top.html.erb:33: syntax error, unexpected '<'
+app/views/home/top.html.erb:33: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:34: unknown regexp options - dv
+app/views/home/top.html.erb:35: syntax error, unexpected '<'
+app/views/home/top.html.erb:36: unknown regexp options - dv
+app/views/home/top.html.erb:38: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '>'
+app/views/home/top.html.erb:41: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:42: syntax error, unexpected '<'
+app/views/home/top.html.erb:43: unknown regexp option - p
+app/views/home/top.html.erb:44: syntax error, unexpected '<'
+app/views/home/top.html.erb:44: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:45: unknown regexp options - dv
+app/views/home/top.html.erb:46: syntax error, unexpected '<'
+app/views/home/top.html.erb:47: unknown regexp options - dv
+app/views/home/top.html.erb:49: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '>'
+app/views/home/top.html.erb:52: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:53: syntax error, unexpected '<'
+app/views/home/top.html.erb:54: unknown regexp option - p
+app/views/home/top.html.erb:55: syntax error, unexpected '<'
+app/views/home/top.html.erb:55: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:56: unknown regexp options - dv
+app/views/home/top.html.erb:57: syntax error, unexpected '<'
+app/views/home/top.html.erb:58: unknown regexp options - dv
+app/views/home/top.html.erb:60: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '>'
+app/views/home/top.html.erb:63: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:64: syntax error, unexpected '<'
+app/views/home/top.html.erb:65: unknown regexp option - p
+app/views/home/top.html.erb:66: syntax error, unexpected '<'
+app/views/home/top.html.erb:66: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:67: unknown regexp options - dv
+app/views/home/top.html.erb:68: syntax error, unexpected '<'
+app/views/home/top.html.erb:69: unknown regexp options - dv
+app/views/home/top.html.erb:72: syntax error, unexpected '<'
+app/views/home/top.html.erb:74: unterminated regexp meets end of file
+app/views/home/top.html.erb:74: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:30: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:31: syntax error, unexpected '<'
+app/views/home/top.html.erb:32: unknown regexp option - p
+app/views/home/top.html.erb:33: syntax error, unexpected '<'
+app/views/home/top.html.erb:33: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:34: unknown regexp options - dv
+app/views/home/top.html.erb:35: syntax error, unexpected '<'
+app/views/home/top.html.erb:36: unknown regexp options - dv
+app/views/home/top.html.erb:38: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '>'
+app/views/home/top.html.erb:41: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:42: syntax error, unexpected '<'
+app/views/home/top.html.erb:43: unknown regexp option - p
+app/views/home/top.html.erb:44: syntax error, unexpected '<'
+app/views/home/top.html.erb:44: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:45: unknown regexp options - dv
+app/views/home/top.html.erb:46: syntax error, unexpected '<'
+app/views/home/top.html.erb:47: unknown regexp options - dv
+app/views/home/top.html.erb:49: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '>'
+app/views/home/top.html.erb:52: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:53: syntax error, unexpected '<'
+app/views/home/top.html.erb:54: unknown regexp option - p
+app/views/home/top.html.erb:55: syntax error, unexpected '<'
+app/views/home/top.html.erb:55: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:56: unknown regexp options - dv
+app/views/home/top.html.erb:57: syntax error, unexpected '<'
+app/views/home/top.html.erb:58: unknown regexp options - dv
+app/views/home/top.html.erb:60: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '>'
+app/views/home/top.html.erb:63: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:64: syntax error, unexpected '<'
+app/views/home/top.html.erb:65: unknown regexp option - p
+app/views/home/top.html.erb:66: syntax error, unexpected '<'
+app/views/home/top.html.erb:66: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:67: unknown regexp options - dv
+app/views/home/top.html.erb:68: syntax error, unexpected '<'
+app/views/home/top.html.erb:69: unknown regexp options - dv
+app/views/home/top.html.erb:72: syntax error, unexpected '<'
+app/views/home/top.html.erb:74: unterminated regexp meets end of file
+app/views/home/top.html.erb:74: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:30: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:31: syntax error, unexpected '<'
+app/views/home/top.html.erb:32: unknown regexp option - p
+app/views/home/top.html.erb:33: syntax error, unexpected '<'
+app/views/home/top.html.erb:33: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:34: unknown regexp options - dv
+app/views/home/top.html.erb:35: syntax error, unexpected '<'
+app/views/home/top.html.erb:36: unknown regexp options - dv
+app/views/home/top.html.erb:38: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '>'
+app/views/home/top.html.erb:41: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:42: syntax error, unexpected '<'
+app/views/home/top.html.erb:43: unknown regexp option - p
+app/views/home/top.html.erb:44: syntax error, unexpected '<'
+app/views/home/top.html.erb:44: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:45: unknown regexp options - dv
+app/views/home/top.html.erb:46: syntax error, unexpected '<'
+app/views/home/top.html.erb:47: unknown regexp options - dv
+app/views/home/top.html.erb:49: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '>'
+app/views/home/top.html.erb:52: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:53: syntax error, unexpected '<'
+app/views/home/top.html.erb:54: unknown regexp option - p
+app/views/home/top.html.erb:55: syntax error, unexpected '<'
+app/views/home/top.html.erb:55: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:56: unknown regexp options - dv
+app/views/home/top.html.erb:57: syntax error, unexpected '<'
+app/views/home/top.html.erb:58: unknown regexp options - dv
+app/views/home/top.html.erb:60: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '>'
+app/views/home/top.html.erb:63: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:64: syntax error, unexpected '<'
+app/views/home/top.html.erb:65: unknown regexp option - p
+app/views/home/top.html.erb:66: syntax error, unexpected '<'
+app/views/home/top.html.erb:66: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:67: unknown regexp options - dv
+app/views/home/top.html.erb:68: syntax error, unexpected '<'
+app/views/home/top.html.erb:69: unknown regexp options - dv
+app/views/home/top.html.erb:72: syntax error, unexpected '<'
+app/views/home/top.html.erb:74: unterminated regexp meets end of file
+app/views/home/top.html.erb:74: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:41:17 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1353)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1422)
+Completed 500 Internal Server Error in 2ms (Allocations: 1884)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>公立大生が選ぶ！USJオススメエリア５選</h1>
+
+
+<div class="row">
+    <div class="col-md-2">
+        <div class="card"%>
+            <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+            <div class="card-body text-center">
+                <h4 class="card-title">たいとる</h4>
+                <p class="card-text">こんてんつ</p>
+                <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+            <div class="card-body text-center">
+                <h4 class="card-title">たいとる</h4>
+                <p class="card-text">こんてんつ</p>
+                <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+        <%= image_tag 'top/nurie.png, class: 'card-img-top' %>
+            <div class="card-body text-center">
+                <h4 class="card-title">たいとる</h4>
+                <p class="card-text">こんてんつ</p>
+                <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+            <div class="card-body text-center">
+                <h4 class="card-title">たいとる</h4>
+                <p class="card-text">こんてんつ</p>
+                <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+            <div class="card-body text-center">
+                <h4 class="card-title">たいとる</h4>
+                <p class="card-text">こんてんつ</p>
+                <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+            <div class="card-body text-center">
+                <h4 class="card-title">たいとる</h4>
+                <p class="card-text">こんてんつ</p>
+                <a href="#" class="btn btn-primary">詳細を見る</a>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+):
+1:    <h1>公立大生が選ぶ！USJオススメエリア５選</h1>
+2:    
+3:    
+4:    <div class="row">
+5:        <div class="col-md-2">
+6:            <div class="card"%>
+7:                <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+8:                <div class="card-body text-center">
+9:                    <h4 class="card-title">たいとる</h4>
+10:                    <p class="card-text">こんてんつ</p>
+11:                    <a href="#" class="btn btn-primary">詳細を見る</a>
+12:                </div>
+13:            </div>
+14:        </div>
+15:    
+16:        <div class="col-md-2">
+17:            <div class="card"%>
+18:                <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+19:                <div class="card-body text-center">
+20:                    <h4 class="card-title">たいとる</h4>
+21:                    <p class="card-text">こんてんつ</p>
+22:                    <a href="#" class="btn btn-primary">詳細を見る</a>
+23:                </div>
+24:            </div>
+25:        </div>
+26:    
+27:        <div class="col-md-2">
+28:            <div class="card"%>
+29:            <%= image_tag 'top/nurie.png, class: 'card-img-top' %>
+30:                <div class="card-body text-center">
+31:                    <h4 class="card-title">たいとる</h4>
+32:                    <p class="card-text">こんてんつ</p>
+33:                    <a href="#" class="btn btn-primary">詳細を見る</a>
+34:                </div>
+35:            </div>
+36:        </div>
+37:    
+38:        <div class="col-md-2">
+39:            <div class="card"%>
+40:                <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+41:                <div class="card-body text-center">
+42:                    <h4 class="card-title">たいとる</h4>
+43:                    <p class="card-text">こんてんつ</p>
+44:                    <a href="#" class="btn btn-primary">詳細を見る</a>
+45:                </div>
+46:            </div>
+47:        </div>
+48:    
+49:        <div class="col-md-2">
+50:            <div class="card"%>
+51:                <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+52:                <div class="card-body text-center">
+53:                    <h4 class="card-title">たいとる</h4>
+54:                    <p class="card-text">こんてんつ</p>
+55:                    <a href="#" class="btn btn-primary">詳細を見る</a>
+56:                </div>
+57:            </div>
+58:        </div>
+59:    
+60:        <div class="col-md-2">
+61:            <div class="card"%>
+62:                <%#img class="card-img-top" src="assets/top/nurie.png" alt="ライトコースのイメージ画像"%>
+63:                <div class="card-body text-center">
+64:                    <h4 class="card-title">たいとる</h4>
+65:                    <p class="card-text">こんてんつ</p>
+66:                    <a href="#" class="btn btn-primary">詳細を見る</a>
+67:                </div>
+68:            </div>
+69:        </div>
+70:    
+71:    
+72:    </div>
+  
+app/views/home/top.html.erb:29: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:30: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:31: syntax error, unexpected '<'
+app/views/home/top.html.erb:32: unknown regexp option - p
+app/views/home/top.html.erb:33: syntax error, unexpected '<'
+app/views/home/top.html.erb:33: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:34: unknown regexp options - dv
+app/views/home/top.html.erb:35: syntax error, unexpected '<'
+app/views/home/top.html.erb:36: unknown regexp options - dv
+app/views/home/top.html.erb:38: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '>'
+app/views/home/top.html.erb:41: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:42: syntax error, unexpected '<'
+app/views/home/top.html.erb:43: unknown regexp option - p
+app/views/home/top.html.erb:44: syntax error, unexpected '<'
+app/views/home/top.html.erb:44: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:45: unknown regexp options - dv
+app/views/home/top.html.erb:46: syntax error, unexpected '<'
+app/views/home/top.html.erb:47: unknown regexp options - dv
+app/views/home/top.html.erb:49: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '>'
+app/views/home/top.html.erb:52: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:53: syntax error, unexpected '<'
+app/views/home/top.html.erb:54: unknown regexp option - p
+app/views/home/top.html.erb:55: syntax error, unexpected '<'
+app/views/home/top.html.erb:55: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:56: unknown regexp options - dv
+app/views/home/top.html.erb:57: syntax error, unexpected '<'
+app/views/home/top.html.erb:58: unknown regexp options - dv
+app/views/home/top.html.erb:60: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '>'
+app/views/home/top.html.erb:63: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:64: syntax error, unexpected '<'
+app/views/home/top.html.erb:65: unknown regexp option - p
+app/views/home/top.html.erb:66: syntax error, unexpected '<'
+app/views/home/top.html.erb:66: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:67: unknown regexp options - dv
+app/views/home/top.html.erb:68: syntax error, unexpected '<'
+app/views/home/top.html.erb:69: unknown regexp options - dv
+app/views/home/top.html.erb:72: syntax error, unexpected '<'
+app/views/home/top.html.erb:74: unterminated regexp meets end of file
+app/views/home/top.html.erb:74: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:30: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:31: syntax error, unexpected '<'
+app/views/home/top.html.erb:32: unknown regexp option - p
+app/views/home/top.html.erb:33: syntax error, unexpected '<'
+app/views/home/top.html.erb:33: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:34: unknown regexp options - dv
+app/views/home/top.html.erb:35: syntax error, unexpected '<'
+app/views/home/top.html.erb:36: unknown regexp options - dv
+app/views/home/top.html.erb:38: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '>'
+app/views/home/top.html.erb:41: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:42: syntax error, unexpected '<'
+app/views/home/top.html.erb:43: unknown regexp option - p
+app/views/home/top.html.erb:44: syntax error, unexpected '<'
+app/views/home/top.html.erb:44: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:45: unknown regexp options - dv
+app/views/home/top.html.erb:46: syntax error, unexpected '<'
+app/views/home/top.html.erb:47: unknown regexp options - dv
+app/views/home/top.html.erb:49: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '>'
+app/views/home/top.html.erb:52: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:53: syntax error, unexpected '<'
+app/views/home/top.html.erb:54: unknown regexp option - p
+app/views/home/top.html.erb:55: syntax error, unexpected '<'
+app/views/home/top.html.erb:55: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:56: unknown regexp options - dv
+app/views/home/top.html.erb:57: syntax error, unexpected '<'
+app/views/home/top.html.erb:58: unknown regexp options - dv
+app/views/home/top.html.erb:60: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '>'
+app/views/home/top.html.erb:63: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:64: syntax error, unexpected '<'
+app/views/home/top.html.erb:65: unknown regexp option - p
+app/views/home/top.html.erb:66: syntax error, unexpected '<'
+app/views/home/top.html.erb:66: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:67: unknown regexp options - dv
+app/views/home/top.html.erb:68: syntax error, unexpected '<'
+app/views/home/top.html.erb:69: unknown regexp options - dv
+app/views/home/top.html.erb:72: syntax error, unexpected '<'
+app/views/home/top.html.erb:74: unterminated regexp meets end of file
+app/views/home/top.html.erb:74: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:30: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:31: syntax error, unexpected '<'
+app/views/home/top.html.erb:32: unknown regexp option - p
+app/views/home/top.html.erb:33: syntax error, unexpected '<'
+app/views/home/top.html.erb:33: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:34: unknown regexp options - dv
+app/views/home/top.html.erb:35: syntax error, unexpected '<'
+app/views/home/top.html.erb:36: unknown regexp options - dv
+app/views/home/top.html.erb:38: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '>'
+app/views/home/top.html.erb:41: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:42: syntax error, unexpected '<'
+app/views/home/top.html.erb:43: unknown regexp option - p
+app/views/home/top.html.erb:44: syntax error, unexpected '<'
+app/views/home/top.html.erb:44: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:45: unknown regexp options - dv
+app/views/home/top.html.erb:46: syntax error, unexpected '<'
+app/views/home/top.html.erb:47: unknown regexp options - dv
+app/views/home/top.html.erb:49: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '>'
+app/views/home/top.html.erb:52: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:53: syntax error, unexpected '<'
+app/views/home/top.html.erb:54: unknown regexp option - p
+app/views/home/top.html.erb:55: syntax error, unexpected '<'
+app/views/home/top.html.erb:55: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:56: unknown regexp options - dv
+app/views/home/top.html.erb:57: syntax error, unexpected '<'
+app/views/home/top.html.erb:58: unknown regexp options - dv
+app/views/home/top.html.erb:60: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '>'
+app/views/home/top.html.erb:63: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:64: syntax error, unexpected '<'
+app/views/home/top.html.erb:65: unknown regexp option - p
+app/views/home/top.html.erb:66: syntax error, unexpected '<'
+app/views/home/top.html.erb:66: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:67: unknown regexp options - dv
+app/views/home/top.html.erb:68: syntax error, unexpected '<'
+app/views/home/top.html.erb:69: unknown regexp options - dv
+app/views/home/top.html.erb:72: syntax error, unexpected '<'
+app/views/home/top.html.erb:74: unterminated regexp meets end of file
+app/views/home/top.html.erb:74: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:30: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:31: syntax error, unexpected '<'
+app/views/home/top.html.erb:32: unknown regexp option - p
+app/views/home/top.html.erb:33: syntax error, unexpected '<'
+app/views/home/top.html.erb:33: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:34: unknown regexp options - dv
+app/views/home/top.html.erb:35: syntax error, unexpected '<'
+app/views/home/top.html.erb:36: unknown regexp options - dv
+app/views/home/top.html.erb:38: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '>'
+app/views/home/top.html.erb:41: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:42: syntax error, unexpected '<'
+app/views/home/top.html.erb:43: unknown regexp option - p
+app/views/home/top.html.erb:44: syntax error, unexpected '<'
+app/views/home/top.html.erb:44: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:45: unknown regexp options - dv
+app/views/home/top.html.erb:46: syntax error, unexpected '<'
+app/views/home/top.html.erb:47: unknown regexp options - dv
+app/views/home/top.html.erb:49: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '>'
+app/views/home/top.html.erb:52: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:53: syntax error, unexpected '<'
+app/views/home/top.html.erb:54: unknown regexp option - p
+app/views/home/top.html.erb:55: syntax error, unexpected '<'
+app/views/home/top.html.erb:55: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:56: unknown regexp options - dv
+app/views/home/top.html.erb:57: syntax error, unexpected '<'
+app/views/home/top.html.erb:58: unknown regexp options - dv
+app/views/home/top.html.erb:60: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '>'
+app/views/home/top.html.erb:63: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:64: syntax error, unexpected '<'
+app/views/home/top.html.erb:65: unknown regexp option - p
+app/views/home/top.html.erb:66: syntax error, unexpected '<'
+app/views/home/top.html.erb:66: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:67: unknown regexp options - dv
+app/views/home/top.html.erb:68: syntax error, unexpected '<'
+app/views/home/top.html.erb:69: unknown regexp options - dv
+app/views/home/top.html.erb:72: syntax error, unexpected '<'
+app/views/home/top.html.erb:74: unterminated regexp meets end of file
+app/views/home/top.html.erb:74: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:30: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:31: syntax error, unexpected '<'
+app/views/home/top.html.erb:32: unknown regexp option - p
+app/views/home/top.html.erb:33: syntax error, unexpected '<'
+app/views/home/top.html.erb:33: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:34: unknown regexp options - dv
+app/views/home/top.html.erb:35: syntax error, unexpected '<'
+app/views/home/top.html.erb:36: unknown regexp options - dv
+app/views/home/top.html.erb:38: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '>'
+app/views/home/top.html.erb:41: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:42: syntax error, unexpected '<'
+app/views/home/top.html.erb:43: unknown regexp option - p
+app/views/home/top.html.erb:44: syntax error, unexpected '<'
+app/views/home/top.html.erb:44: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:45: unknown regexp options - dv
+app/views/home/top.html.erb:46: syntax error, unexpected '<'
+app/views/home/top.html.erb:47: unknown regexp options - dv
+app/views/home/top.html.erb:49: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '>'
+app/views/home/top.html.erb:52: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:53: syntax error, unexpected '<'
+app/views/home/top.html.erb:54: unknown regexp option - p
+app/views/home/top.html.erb:55: syntax error, unexpected '<'
+app/views/home/top.html.erb:55: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:56: unknown regexp options - dv
+app/views/home/top.html.erb:57: syntax error, unexpected '<'
+app/views/home/top.html.erb:58: unknown regexp options - dv
+app/views/home/top.html.erb:60: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '>'
+app/views/home/top.html.erb:63: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:64: syntax error, unexpected '<'
+app/views/home/top.html.erb:65: unknown regexp option - p
+app/views/home/top.html.erb:66: syntax error, unexpected '<'
+app/views/home/top.html.erb:66: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:67: unknown regexp options - dv
+app/views/home/top.html.erb:68: syntax error, unexpected '<'
+app/views/home/top.html.erb:69: unknown regexp options - dv
+app/views/home/top.html.erb:72: syntax error, unexpected '<'
+app/views/home/top.html.erb:74: unterminated regexp meets end of file
+app/views/home/top.html.erb:74: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/top.html.erb:29: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/top.html.erb:30: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:31: syntax error, unexpected '<'
+app/views/home/top.html.erb:32: unknown regexp option - p
+app/views/home/top.html.erb:33: syntax error, unexpected '<'
+app/views/home/top.html.erb:33: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:34: unknown regexp options - dv
+app/views/home/top.html.erb:35: syntax error, unexpected '<'
+app/views/home/top.html.erb:36: unknown regexp options - dv
+app/views/home/top.html.erb:38: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '<'
+app/views/home/top.html.erb:39: syntax error, unexpected '>'
+app/views/home/top.html.erb:41: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:42: syntax error, unexpected '<'
+app/views/home/top.html.erb:43: unknown regexp option - p
+app/views/home/top.html.erb:44: syntax error, unexpected '<'
+app/views/home/top.html.erb:44: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:45: unknown regexp options - dv
+app/views/home/top.html.erb:46: syntax error, unexpected '<'
+app/views/home/top.html.erb:47: unknown regexp options - dv
+app/views/home/top.html.erb:49: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '<'
+app/views/home/top.html.erb:50: syntax error, unexpected '>'
+app/views/home/top.html.erb:52: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:53: syntax error, unexpected '<'
+app/views/home/top.html.erb:54: unknown regexp option - p
+app/views/home/top.html.erb:55: syntax error, unexpected '<'
+app/views/home/top.html.erb:55: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:56: unknown regexp options - dv
+app/views/home/top.html.erb:57: syntax error, unexpected '<'
+app/views/home/top.html.erb:58: unknown regexp options - dv
+app/views/home/top.html.erb:60: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '<'
+app/views/home/top.html.erb:61: syntax error, unexpected '>'
+app/views/home/top.html.erb:63: syntax error, unexpected `class', expecting `do' or '{' or '('
+app/views/home/top.html.erb:64: syntax error, unexpected '<'
+app/views/home/top.html.erb:65: unknown regexp option - p
+app/views/home/top.html.erb:66: syntax error, unexpected '<'
+app/views/home/top.html.erb:66: syntax error, unexpected `class', expecting ')'
+app/views/home/top.html.erb:67: unknown regexp options - dv
+app/views/home/top.html.erb:68: syntax error, unexpected '<'
+app/views/home/top.html.erb:69: unknown regexp options - dv
+app/views/home/top.html.erb:72: syntax error, unexpected '<'
+app/views/home/top.html.erb:74: unterminated regexp meets end of file
+app/views/home/top.html.erb:74: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:42:49 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1263)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 4910)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 6227)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 08:56:24 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 6.1ms | Allocations: 4466)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 4540)
+Completed 500 Internal Server Error in 8ms (Allocations: 5862)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `nintendo' for #<ActionView::Base:0x00000000009e20>
+Did you mean?  nintendo_url):
+    3: 
+    4: <div class="row">
+    5:     <div class="col-md-2">
+    6:         <%= link_to nintendo, class: "card" do %>
+    7:             <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+    8:             <div class="card-body text-center">
+    9:                 <h4 class="card-title">たいとる</h4>
+  
+app/views/home/top.html.erb:6
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:01:18 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.8ms | Allocations: 4343)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 8311)
+Completed 200 OK in 13ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 12036)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:02:06 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1387)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 5015)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 6451)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:02:48 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1385)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 5011)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 6383)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:03:10 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1387)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 5015)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 6397)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:03:18 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1385)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 5011)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 6383)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:03:47 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1385)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 5011)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 6383)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:04:23 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2811)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 6438)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 7811)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:09:47 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 6448)
+Completed 200 OK in 9ms (Views: 7.6ms | Allocations: 7827)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:10:02 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.1ms | Allocations: 2815)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 6445)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 7815)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:11:29 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 4.4ms | Allocations: 4555)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 4639)
+Completed 500 Internal Server Error in 7ms (Allocations: 5976)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>公立大生が選ぶ！USJオススメエリア５選</h1>
+
+
+<div class="row">
+    <div class="col-md-2">
+        <div class="card"%>
+            <%= link_to nintendo_path, class: "card-body text-center" :style=>”color:black;” do %>
+                <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+                <h4 class="card-title">たいとる</h4>
+                <h5 class="card-content">aiaia</h5>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%= link_to nintendo_path, class: "card-body text-center" do %>
+                <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+                <h4 class="card-title">たいとる</h4>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%= link_to nintendo_path, class: "card-body text-center" do %>
+                <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+                <h4 class="card-title">たいとる</h4>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%= link_to nintendo_path, class: "card-body text-center" do %>
+                <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+                <h4 class="card-title">たいとる</h4>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%= link_to nintendo_path, class: "card-body text-center" do %>
+                <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+                <h4 class="card-title">たいとる</h4>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%= link_to nintendo_path, class: "card-body text-center" do %>
+                <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+                <h4 class="card-title">たいとる</h4>
+            <% end %>
+        </div>
+    </div>
+
+
+</div>
+):
+1:    <h1>公立大生が選ぶ！USJオススメエリア５選</h1>
+2:    
+3:    
+4:    <div class="row">
+5:        <div class="col-md-2">
+6:            <div class="card"%>
+7:                <%= link_to nintendo_path, class: "card-body text-center" :style=>”color:black;” do %>
+8:                    <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+9:                    <h4 class="card-title">たいとる</h4>
+10:                    <h5 class="card-content">aiaia</h5>
+11:                <% end %>
+12:            </div>
+13:        </div>
+14:    
+15:        <div class="col-md-2">
+16:            <div class="card"%>
+17:                <%= link_to nintendo_path, class: "card-body text-center" do %>
+18:                    <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+19:                    <h4 class="card-title">たいとる</h4>
+20:                <% end %>
+21:            </div>
+22:        </div>
+23:    
+24:        <div class="col-md-2">
+25:            <div class="card"%>
+26:                <%= link_to nintendo_path, class: "card-body text-center" do %>
+27:                    <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+28:                    <h4 class="card-title">たいとる</h4>
+29:                <% end %>
+30:            </div>
+31:        </div>
+32:    
+33:        <div class="col-md-2">
+34:            <div class="card"%>
+35:                <%= link_to nintendo_path, class: "card-body text-center" do %>
+36:                    <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+37:                    <h4 class="card-title">たいとる</h4>
+38:                <% end %>
+39:            </div>
+40:        </div>
+41:    
+42:        <div class="col-md-2">
+43:            <div class="card"%>
+44:                <%= link_to nintendo_path, class: "card-body text-center" do %>
+45:                    <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+46:                    <h4 class="card-title">たいとる</h4>
+47:                <% end %>
+48:            </div>
+49:        </div>
+50:    
+51:        <div class="col-md-2">
+52:            <div class="card"%>
+53:                <%= link_to nintendo_path, class: "card-body text-center" do %>
+54:                    <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+55:                    <h4 class="card-title">たいとる</h4>
+56:                <% end %>
+57:            </div>
+58:        </div>
+59:    
+60:    
+61:    </div>
+  
+app/views/home/top.html.erb:7: syntax error, unexpected ':', expecting `end'
+app/views/home/top.html.erb:7: syntax error, unexpected ':', expecting `end'
+app/views/home/top.html.erb:7: syntax error, unexpected ':', expecting `end'
+app/views/home/top.html.erb:7: syntax error, unexpected ':', expecting `end'
+app/views/home/top.html.erb:7: syntax error, unexpected ':', expecting `end'
+app/views/home/top.html.erb:7: syntax error, unexpected ':', expecting `end'
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:11:51 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1535)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1611)
+Completed 500 Internal Server Error in 4ms (Allocations: 2955)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>公立大生が選ぶ！USJオススメエリア５選</h1>
+
+
+<div class="row">
+    <div class="col-md-2">
+        <div class="card"%>
+            <%= link_to nintendo_path, class: "card-body text-center", style:”color:black;” do %>
+                <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+                <h4 class="card-title">たいとる</h4>
+                <h5 class="card-content">aiaia</h5>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%= link_to nintendo_path, class: "card-body text-center" do %>
+                <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+                <h4 class="card-title">たいとる</h4>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%= link_to nintendo_path, class: "card-body text-center" do %>
+                <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+                <h4 class="card-title">たいとる</h4>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%= link_to nintendo_path, class: "card-body text-center" do %>
+                <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+                <h4 class="card-title">たいとる</h4>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%= link_to nintendo_path, class: "card-body text-center" do %>
+                <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+                <h4 class="card-title">たいとる</h4>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%= link_to nintendo_path, class: "card-body text-center" do %>
+                <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+                <h4 class="card-title">たいとる</h4>
+            <% end %>
+        </div>
+    </div>
+
+
+</div>
+):
+1:    <h1>公立大生が選ぶ！USJオススメエリア５選</h1>
+2:    
+3:    
+4:    <div class="row">
+5:        <div class="col-md-2">
+6:            <div class="card"%>
+7:                <%= link_to nintendo_path, class: "card-body text-center", style:”color:black;” do %>
+8:                    <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+9:                    <h4 class="card-title">たいとる</h4>
+10:                    <h5 class="card-content">aiaia</h5>
+11:                <% end %>
+12:            </div>
+13:        </div>
+14:    
+15:        <div class="col-md-2">
+16:            <div class="card"%>
+17:                <%= link_to nintendo_path, class: "card-body text-center" do %>
+18:                    <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+19:                    <h4 class="card-title">たいとる</h4>
+20:                <% end %>
+21:            </div>
+22:        </div>
+23:    
+24:        <div class="col-md-2">
+25:            <div class="card"%>
+26:                <%= link_to nintendo_path, class: "card-body text-center" do %>
+27:                    <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+28:                    <h4 class="card-title">たいとる</h4>
+29:                <% end %>
+30:            </div>
+31:        </div>
+32:    
+33:        <div class="col-md-2">
+34:            <div class="card"%>
+35:                <%= link_to nintendo_path, class: "card-body text-center" do %>
+36:                    <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+37:                    <h4 class="card-title">たいとる</h4>
+38:                <% end %>
+39:            </div>
+40:        </div>
+41:    
+42:        <div class="col-md-2">
+43:            <div class="card"%>
+44:                <%= link_to nintendo_path, class: "card-body text-center" do %>
+45:                    <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+46:                    <h4 class="card-title">たいとる</h4>
+47:                <% end %>
+48:            </div>
+49:        </div>
+50:    
+51:        <div class="col-md-2">
+52:            <div class="card"%>
+53:                <%= link_to nintendo_path, class: "card-body text-center" do %>
+54:                    <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+55:                    <h4 class="card-title">たいとる</h4>
+56:                <% end %>
+57:            </div>
+58:        </div>
+59:    
+60:    
+61:    </div>
+  
+app/views/home/top.html.erb:7: syntax error, unexpected label
+app/views/home/top.html.erb:7: syntax error, unexpected label
+app/views/home/top.html.erb:7: syntax error, unexpected label
+app/views/home/top.html.erb:7: syntax error, unexpected label
+app/views/home/top.html.erb:7: syntax error, unexpected label
+app/views/home/top.html.erb:7: syntax error, unexpected label
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:12:03 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1536)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1611)
+Completed 500 Internal Server Error in 3ms (Allocations: 2942)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>公立大生が選ぶ！USJオススメエリア５選</h1>
+
+
+<div class="row">
+    <div class="col-md-2">
+        <div class="card"%>
+            <%= link_to nintendo_path, class: "card-body text-center", style:”color:black” do %>
+                <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+                <h4 class="card-title">たいとる</h4>
+                <h5 class="card-content">aiaia</h5>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%= link_to nintendo_path, class: "card-body text-center" do %>
+                <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+                <h4 class="card-title">たいとる</h4>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%= link_to nintendo_path, class: "card-body text-center" do %>
+                <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+                <h4 class="card-title">たいとる</h4>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%= link_to nintendo_path, class: "card-body text-center" do %>
+                <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+                <h4 class="card-title">たいとる</h4>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%= link_to nintendo_path, class: "card-body text-center" do %>
+                <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+                <h4 class="card-title">たいとる</h4>
+            <% end %>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="card"%>
+            <%= link_to nintendo_path, class: "card-body text-center" do %>
+                <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+                <h4 class="card-title">たいとる</h4>
+            <% end %>
+        </div>
+    </div>
+
+
+</div>
+):
+1:    <h1>公立大生が選ぶ！USJオススメエリア５選</h1>
+2:    
+3:    
+4:    <div class="row">
+5:        <div class="col-md-2">
+6:            <div class="card"%>
+7:                <%= link_to nintendo_path, class: "card-body text-center", style:”color:black” do %>
+8:                    <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+9:                    <h4 class="card-title">たいとる</h4>
+10:                    <h5 class="card-content">aiaia</h5>
+11:                <% end %>
+12:            </div>
+13:        </div>
+14:    
+15:        <div class="col-md-2">
+16:            <div class="card"%>
+17:                <%= link_to nintendo_path, class: "card-body text-center" do %>
+18:                    <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+19:                    <h4 class="card-title">たいとる</h4>
+20:                <% end %>
+21:            </div>
+22:        </div>
+23:    
+24:        <div class="col-md-2">
+25:            <div class="card"%>
+26:                <%= link_to nintendo_path, class: "card-body text-center" do %>
+27:                    <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+28:                    <h4 class="card-title">たいとる</h4>
+29:                <% end %>
+30:            </div>
+31:        </div>
+32:    
+33:        <div class="col-md-2">
+34:            <div class="card"%>
+35:                <%= link_to nintendo_path, class: "card-body text-center" do %>
+36:                    <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+37:                    <h4 class="card-title">たいとる</h4>
+38:                <% end %>
+39:            </div>
+40:        </div>
+41:    
+42:        <div class="col-md-2">
+43:            <div class="card"%>
+44:                <%= link_to nintendo_path, class: "card-body text-center" do %>
+45:                    <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+46:                    <h4 class="card-title">たいとる</h4>
+47:                <% end %>
+48:            </div>
+49:        </div>
+50:    
+51:        <div class="col-md-2">
+52:            <div class="card"%>
+53:                <%= link_to nintendo_path, class: "card-body text-center" do %>
+54:                    <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+55:                    <h4 class="card-title">たいとる</h4>
+56:                <% end %>
+57:            </div>
+58:        </div>
+59:    
+60:    
+61:    </div>
+  
+app/views/home/top.html.erb:7: syntax error, unexpected label
+app/views/home/top.html.erb:63: syntax error, unexpected `end', expecting end-of-input
+app/views/home/top.html.erb:7: syntax error, unexpected label
+app/views/home/top.html.erb:63: syntax error, unexpected `end', expecting end-of-input
+app/views/home/top.html.erb:7: syntax error, unexpected label
+app/views/home/top.html.erb:63: syntax error, unexpected `end', expecting end-of-input
+app/views/home/top.html.erb:7: syntax error, unexpected label
+app/views/home/top.html.erb:63: syntax error, unexpected `end', expecting end-of-input
+app/views/home/top.html.erb:7: syntax error, unexpected label
+app/views/home/top.html.erb:63: syntax error, unexpected `end', expecting end-of-input
+app/views/home/top.html.erb:7: syntax error, unexpected label
+app/views/home/top.html.erb:63: syntax error, unexpected `end', expecting end-of-input
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:14:58 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.8ms | Allocations: 2817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 6452)
+Completed 200 OK in 9ms (Views: 7.7ms | Allocations: 7827)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:14:59 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.6ms | Allocations: 2046)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 5379)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 5867)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:16:21 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2809)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.2ms | Allocations: 12417)
+Completed 200 OK in 42ms (Views: 41.3ms | Allocations: 13734)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:19:50 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2808)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 6490)
+Completed 200 OK in 8ms (Views: 7.1ms | Allocations: 7854)
+
+
+Started GET "/app/assets/stylesheets/application.scss" for 172.28.0.1 at 2023-01-11 09:19:50 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/application.scss"):
+  
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:19:51 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.6ms | Allocations: 2139)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 5524)
+Completed 200 OK in 10ms (Views: 9.1ms | Allocations: 6015)
+
+
+Started GET "/app/assets/stylesheets/application.scss" for 172.28.0.1 at 2023-01-11 09:19:51 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/application.scss"):
+  
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:20:34 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.0ms | Allocations: 2814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 6447)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 7765)
+
+
+Started GET "/app/assets/stylesheets/application.scss" for 172.28.0.1 at 2023-01-11 09:20:34 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/application.scss"):
+  
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:20:35 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.0ms | Allocations: 2046)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 5380)
+Completed 200 OK in 6ms (Views: 5.5ms | Allocations: 5836)
+
+
+Started GET "/app/assets/stylesheets/application.scss" for 172.28.0.1 at 2023-01-11 09:20:35 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/application.scss"):
+  
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:20:35 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2051)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 5390)
+Completed 200 OK in 6ms (Views: 5.8ms | Allocations: 5831)
+
+
+Started GET "/app/assets/stylesheets/application.scss" for 172.28.0.1 at 2023-01-11 09:20:35 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/application.scss"):
+  
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:20:36 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.5ms | Allocations: 2051)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 5390)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 5830)
+
+
+Started GET "/app/assets/stylesheets/application.scss" for 172.28.0.1 at 2023-01-11 09:20:36 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/application.scss"):
+  
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:21:23 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2815)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 6501)
+Completed 200 OK in 8ms (Views: 6.9ms | Allocations: 7819)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:21:25 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.6ms | Allocations: 2051)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 5390)
+Completed 200 OK in 5ms (Views: 4.8ms | Allocations: 5878)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:22:10 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2809)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 6435)
+Completed 200 OK in 7ms (Views: 6.7ms | Allocations: 7752)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:22:28 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2809)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 6435)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 7799)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:22:48 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 6446)
+Completed 200 OK in 8ms (Views: 7.1ms | Allocations: 7810)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:24:40 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.1ms | Allocations: 2811)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 6437)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 7801)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:27:55 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 11.7ms | Allocations: 6258)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 6332)
+Completed 500 Internal Server Error in 14ms (Allocations: 7661)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `hallypotter_path' for #<ActionView::Base:0x00000000009df8>
+Did you mean?  harrypotter_path):
+    44: 
+    45:     <div class="col-md-2">
+    46:         <div class="card"%>
+    47:             <%= link_to hallypotter_path, class:"card-body text-center text-reset text-decoration-none" do %>
+    48:                 <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+    49:                 <h4 class="card-title">ウィザーディング・ワールド・オブ・ハリー・ポッター™</h4>
+    50:                 <h5 class="card-content">recommend by E</h5>
+  
+app/views/home/top.html.erb:47
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:28:12 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 11.0ms | Allocations: 6191)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 6265)
+Completed 500 Internal Server Error in 13ms (Allocations: 7595)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `hallypotter_path' for #<ActionView::Base:0x00000000009fb0>
+Did you mean?  harrypotter_path):
+    44: 
+    45:     <div class="col-md-2">
+    46:         <div class="card"%>
+    47:             <%= link_to hallypotter_path, class:"card-body text-center text-reset text-decoration-none" do %>
+    48:                 <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+    49:                 <h4 class="card-title">ウィザーディング・ワールド・オブ・ハリー・ポッター™</h4>
+    50:                 <h5 class="card-content">recommend by E</h5>
+  
+app/views/home/top.html.erb:47
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:28:13 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 10.2ms | Allocations: 5470)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 5538)
+Completed 500 Internal Server Error in 11ms (Allocations: 5999)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `hallypotter_path' for #<ActionView::Base:0x0000000000a118>
+Did you mean?  harrypotter_path):
+    44: 
+    45:     <div class="col-md-2">
+    46:         <div class="card"%>
+    47:             <%= link_to hallypotter_path, class:"card-body text-center text-reset text-decoration-none" do %>
+    48:                 <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+    49:                 <h4 class="card-title">ウィザーディング・ワールド・オブ・ハリー・ポッター™</h4>
+    50:                 <h5 class="card-content">recommend by E</h5>
+  
+app/views/home/top.html.erb:47
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:28:39 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 12.3ms | Allocations: 6267)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 6341)
+Completed 500 Internal Server Error in 15ms (Allocations: 7614)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `hallypotter_path' for #<ActionView::Base:0x0000000000a2f8>
+Did you mean?  harrypotter_path):
+    44: 
+    45:     <div class="col-md-2">
+    46:         <div class="card"%>
+    47:             <%= link_to hallypotter_path, class:"card-body text-center text-reset text-decoration-none" do %>
+    48:                 <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+    49:                 <h4 class="card-title">ウィザーディング・ワールド・オブ・ハリー・ポッター™</h4>
+    50:                 <h5 class="card-content">recommend by E</h5>
+  
+app/views/home/top.html.erb:47
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:28:40 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 10.4ms | Allocations: 5470)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 5538)
+Completed 500 Internal Server Error in 11ms (Allocations: 5999)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `hallypotter_path' for #<ActionView::Base:0x0000000000a460>
+Did you mean?  harrypotter_path):
+    44: 
+    45:     <div class="col-md-2">
+    46:         <div class="card"%>
+    47:             <%= link_to hallypotter_path, class:"card-body text-center text-reset text-decoration-none" do %>
+    48:                 <%= image_tag 'top/nurie.png', class: 'card-img-top' %>
+    49:                 <h4 class="card-title">ウィザーディング・ワールド・オブ・ハリー・ポッター™</h4>
+    50:                 <h5 class="card-content">recommend by E</h5>
+  
+app/views/home/top.html.erb:47
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:28:56 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2825)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 6457)
+Completed 200 OK in 7ms (Views: 6.6ms | Allocations: 7774)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:29:11 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2458)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 6084)
+Completed 200 OK in 7ms (Views: 6.3ms | Allocations: 7448)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:30:24 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2815)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 6441)
+Completed 200 OK in 7ms (Views: 6.3ms | Allocations: 7805)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:30:28 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2038)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 5371)
+Completed 200 OK in 7ms (Views: 6.4ms | Allocations: 5858)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:31:06 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2824)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 6456)
+Completed 200 OK in 8ms (Views: 6.9ms | Allocations: 7779)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:38:06 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2038)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 5371)
+Completed 200 OK in 6ms (Views: 5.4ms | Allocations: 5858)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:38:35 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 6461)
+Completed 200 OK in 7ms (Views: 6.5ms | Allocations: 7779)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:38:36 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.6ms | Allocations: 2043)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 5382)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 5869)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:38:50 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.1ms | Allocations: 2818)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 6444)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 7766)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:39:03 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.1ms | Allocations: 2818)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 6444)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 7808)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:39:39 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.1ms | Allocations: 2834)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 6460)
+Completed 200 OK in 10ms (Views: 9.0ms | Allocations: 7825)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:40:11 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2860)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 6492)
+Completed 200 OK in 8ms (Views: 6.8ms | Allocations: 7862)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:40:12 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.6ms | Allocations: 2038)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 5371)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 5858)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 09:40:14 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.7ms | Allocations: 2038)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 5371)
+Completed 200 OK in 6ms (Views: 5.0ms | Allocations: 5812)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 10:04:44 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2883)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 6513)
+Completed 200 OK in 7ms (Views: 6.4ms | Allocations: 7831)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 10:08:21 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2897)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 6523)
+Completed 200 OK in 8ms (Views: 6.7ms | Allocations: 7891)
+
+
