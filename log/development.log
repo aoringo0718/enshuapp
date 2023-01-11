@@ -5835,3 +5835,80 @@ Processing by HomeController#top as HTML
 Completed 200 OK in 7ms (Views: 6.6ms | Allocations: 7850)
 
 
+Started GET "/" for 172.28.0.1 at 2023-01-11 11:27:51 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2899)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 6525)
+Completed 200 OK in 10ms (Views: 9.0ms | Allocations: 7890)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 11:28:01 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2910)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 6542)
+Completed 200 OK in 18ms (Views: 16.3ms | Allocations: 7913)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 11:28:10 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2904)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 6537)
+Completed 200 OK in 8ms (Views: 7.0ms | Allocations: 7904)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 11:30:22 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.1ms | Allocations: 2906)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 6538)
+Completed 200 OK in 8ms (Views: 7.5ms | Allocations: 7908)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 11:30:36 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2899)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 6526)
+Completed 200 OK in 12ms (Views: 10.0ms | Allocations: 7894)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 11:30:50 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.7ms | Allocations: 2038)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 5371)
+Completed 200 OK in 6ms (Views: 5.1ms | Allocations: 5858)
+
+
+Started GET "/" for 172.28.0.1 at 2023-01-11 11:31:26 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 2.7ms | Allocations: 2901)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 6529)
+Completed 200 OK in 11ms (Views: 10.2ms | Allocations: 7849)
+
+
