@@ -48,3 +48,6 @@
   * グリッドシステム(縦に分割して要素を配置できる)など，いろいろ便利なので，使いたい人は各自検索してください．
 * 共通のヘッダーを付けるかなどは未定です． 
 * わからないことがあれば[Issue](https://github.com/aoringo0718/enshuapp/issues)を建ててもらえたらメール通知ですぐ気づけると思います．
+* トップページがWebpacker::Manifest::MissingEntryErrorのようなエラーで表示されないときは，
+`docker-compose run --rm web yarn install` を実行してみてください．環境：Windows
+([参考にした記事](https://qiita.com/ashketcham/items/48d64e960d436f8b6f78))
