@@ -2689,3 +2689,111 @@ Processing by HomeController#top as HTML
 Completed 200 OK in 5ms (Views: 4.1ms | Allocations: 4320)
 
 
+  [1m[35m (2584.3ms)[0m  [1m[35mCREATE DATABASE "myapp_development" ENCODING = 'unicode'[0m
+  [1m[35m (2417.1ms)[0m  [1m[35mCREATE DATABASE "myapp_test" ENCODING = 'unicode'[0m
+Started GET "/" for 172.18.0.1 at 2023-01-12 11:31:22 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 574.7ms | Allocations: 10299)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /myapp/public/packs
+[Webpacker] Hash: 0fe7dcd9d8f9ebcf52de
+Version: webpack 4.46.0
+Time: 14261ms
+Built at: 01/12/2023 11:31:47 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-2e212f7c8f867558ac6e.js    121 KiB  application  [emitted] [immutable]  application
+js/application-2e212f7c8f867558ac6e.js.map    136 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-2e212f7c8f867558ac6e.js js/application-2e212f7c8f867558ac6e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 24327.8ms | Allocations: 17411)
+Completed 200 OK in 24506ms (Views: 24389.2ms | ActiveRecord: 0.0ms | Allocations: 22167)
+
+
+Started GET "/jurassic" for 172.18.0.1 at 2023-01-12 11:31:55 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#jurassic as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/jurassic.html.erb within layouts/application
+  Rendered home/jurassic.html.erb within layouts/application (Duration: 4.1ms | Allocations: 206)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 95.9ms | Allocations: 3845)
+Completed 200 OK in 106ms (Views: 97.2ms | ActiveRecord: 0.0ms | Allocations: 4599)
+
+
+Started GET "/%E3%82%B7%E3%82%99%E3%83%A5%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%BB%E3%83%8F%E3%82%9A%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AA%E3%82%A2%20fb6960bfa7604bfc8942d9aa04a6873b/Untitled.png" for 172.18.0.1 at 2023-01-12 11:31:56 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/%E3%82%B7%E3%82%99%E3%83%A5%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%BB%E3%83%8F%E3%82%9A%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AA%E3%82%A2%20fb6960bfa7604bfc8942d9aa04a6873b/Untitled%201.png" for 172.18.0.1 at 2023-01-12 11:31:56 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/%E3%82%B7%E3%82%99%E3%83%A5%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%BB%E3%83%8F%E3%82%9A%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AA%E3%82%A2%20fb6960bfa7604bfc8942d9aa04a6873b/Untitled.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/%E3%82%B7%E3%82%99%E3%83%A5%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%BB%E3%83%8F%E3%82%9A%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AA%E3%82%A2%20fb6960bfa7604bfc8942d9aa04a6873b/Untitled%201.png"):
+  
+Started GET "/%E3%82%B7%E3%82%99%E3%83%A5%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%BB%E3%83%8F%E3%82%9A%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AA%E3%82%A2%20fb6960bfa7604bfc8942d9aa04a6873b/Untitled.png" for 172.18.0.1 at 2023-01-12 11:32:11 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/%E3%82%B7%E3%82%99%E3%83%A5%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%BB%E3%83%8F%E3%82%9A%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AA%E3%82%A2%20fb6960bfa7604bfc8942d9aa04a6873b/Untitled.png"):
+  
+Started GET "/jurassic" for 172.18.0.1 at 2023-01-12 11:32:13 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#jurassic as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/jurassic.html.erb within layouts/application
+  Rendered home/jurassic.html.erb within layouts/application (Duration: 0.2ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 84.3ms | Allocations: 3540)
+Completed 200 OK in 86ms (Views: 85.4ms | ActiveRecord: 0.0ms | Allocations: 4026)
+
+
+Started GET "/" for 172.18.0.1 at 2023-01-12 11:42:50 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 181.3ms | Allocations: 3386)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 286.7ms | Allocations: 7360)
+Completed 200 OK in 334ms (Views: 304.5ms | ActiveRecord: 0.0ms | Allocations: 11091)
+
+
+Started GET "/jurassic" for 172.18.0.1 at 2023-01-12 11:42:53 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#jurassic as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/jurassic.html.erb within layouts/application
+  Rendered home/jurassic.html.erb within layouts/application (Duration: 3.7ms | Allocations: 976)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 83.5ms | Allocations: 4497)
+Completed 200 OK in 94ms (Views: 84.7ms | ActiveRecord: 0.0ms | Allocations: 5339)
+
+
+Started GET "/%E3%82%B7%E3%82%99%E3%83%A5%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%BB%E3%83%8F%E3%82%9A%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AA%E3%82%A2%20fb6960bfa7604bfc8942d9aa04a6873b/Untitled%201.png" for 172.18.0.1 at 2023-01-12 11:42:53 +0000
+Started GET "/%E3%82%B7%E3%82%99%E3%83%A5%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%BB%E3%83%8F%E3%82%9A%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AA%E3%82%A2%20fb6960bfa7604bfc8942d9aa04a6873b/Untitled.png" for 172.18.0.1 at 2023-01-12 11:42:53 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/%E3%82%B7%E3%82%99%E3%83%A5%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%BB%E3%83%8F%E3%82%9A%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AA%E3%82%A2%20fb6960bfa7604bfc8942d9aa04a6873b/Untitled%201.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/%E3%82%B7%E3%82%99%E3%83%A5%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%BB%E3%83%8F%E3%82%9A%E3%83%BC%E3%82%AF%E3%82%A8%E3%83%AA%E3%82%A2%20fb6960bfa7604bfc8942d9aa04a6873b/Untitled.png"):
+  
+Started GET "/jurassic" for 172.18.0.1 at 2023-01-12 11:51:08 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#jurassic as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/jurassic.html.erb within layouts/application
+  Rendered home/jurassic.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1222)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 663.9ms | Allocations: 12383)
+Completed 200 OK in 706ms (Views: 680.2ms | ActiveRecord: 0.0ms | Allocations: 16113)
+
+
