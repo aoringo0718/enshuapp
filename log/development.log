@@ -3303,3 +3303,124 @@ Processing by HomeController#jurassic as HTML
 Completed 200 OK in 385ms (Views: 352.8ms | ActiveRecord: 0.0ms | Allocations: 11927)
 
 
+Started GET "/" for 172.18.0.1 at 2023-01-17 14:08:01 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 30.1ms | Allocations: 797)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 101.0ms | Allocations: 4169)
+Completed 200 OK in 108ms (Views: 101.9ms | Allocations: 4879)
+
+
+Started GET "/jurassic" for 172.18.0.1 at 2023-01-17 14:08:03 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#jurassic as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/jurassic.html.erb within layouts/application
+  Rendered home/jurassic.html.erb within layouts/application (Duration: 0.1ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 96.9ms | Allocations: 3414)
+Completed 200 OK in 99ms (Views: 98.1ms | Allocations: 3854)
+
+
+Started GET "/jurassic" for 172.18.0.1 at 2023-01-18 02:01:10 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#jurassic as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/jurassic.html.erb within layouts/application
+  Rendered home/jurassic.html.erb within layouts/application (Duration: 11.1ms | Allocations: 1230)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 438.5ms | Allocations: 8194)
+Completed 200 OK in 518ms (Views: 465.9ms | ActiveRecord: 0.0ms | Allocations: 11925)
+
+
+Started GET "/jurassic" for 172.18.0.1 at 2023-01-18 02:01:26 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#jurassic as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/jurassic.html.erb within layouts/application
+  Rendered home/jurassic.html.erb within layouts/application (Duration: 0.3ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 96.5ms | Allocations: 3575)
+Completed 200 OK in 98ms (Views: 97.5ms | ActiveRecord: 0.0ms | Allocations: 4129)
+
+
+Started GET "/jurassic" for 172.18.0.1 at 2023-01-18 02:01:28 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#jurassic as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/jurassic.html.erb within layouts/application
+  Rendered home/jurassic.html.erb within layouts/application (Duration: 0.1ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 89.2ms | Allocations: 3417)
+Completed 200 OK in 91ms (Views: 90.4ms | ActiveRecord: 0.0ms | Allocations: 3865)
+
+
+Started GET "/jurassic" for 172.18.0.1 at 2023-01-18 02:02:58 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#jurassic as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/jurassic.html.erb within layouts/application
+  Rendered home/jurassic.html.erb within layouts/application (Duration: 6.2ms | Allocations: 465)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 317.1ms | Allocations: 7429)
+Completed 200 OK in 364ms (Views: 334.8ms | ActiveRecord: 0.0ms | Allocations: 11160)
+
+
+Started GET "/jurassic" for 172.18.0.1 at 2023-01-18 02:05:44 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#jurassic as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/jurassic.html.erb within layouts/application
+  Rendered home/jurassic.html.erb within layouts/application (Duration: 6.5ms | Allocations: 465)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 332.2ms | Allocations: 7431)
+Completed 200 OK in 385ms (Views: 352.1ms | ActiveRecord: 0.0ms | Allocations: 11170)
+
+
+Started GET "/jurassic" for 172.18.0.1 at 2023-01-18 02:06:02 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#jurassic as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/jurassic.html.erb within layouts/application
+  Rendered home/jurassic.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 82.4ms | Allocations: 3575)
+Completed 200 OK in 85ms (Views: 83.8ms | ActiveRecord: 0.0ms | Allocations: 4129)
+
+
+Started GET "/jurassic" for 172.18.0.1 at 2023-01-18 02:06:04 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#jurassic as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/jurassic.html.erb within layouts/application
+  Rendered home/jurassic.html.erb within layouts/application (Duration: 0.1ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 104.2ms | Allocations: 3417)
+Completed 200 OK in 106ms (Views: 105.1ms | ActiveRecord: 0.0ms | Allocations: 3865)
+
+
+Started GET "/jurassic" for 172.18.0.1 at 2023-01-18 02:06:09 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#jurassic as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/jurassic.html.erb within layouts/application
+  Rendered home/jurassic.html.erb within layouts/application (Duration: 0.2ms | Allocations: 34)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 99.1ms | Allocations: 3417)
+Completed 200 OK in 101ms (Views: 100.4ms | ActiveRecord: 0.0ms | Allocations: 3865)
+
+
+Started GET "/jurassic" for 172.18.0.1 at 2023-01-18 02:07:26 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#jurassic as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/jurassic.html.erb within layouts/application
+  Rendered home/jurassic.html.erb within layouts/application (Duration: 6.4ms | Allocations: 465)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 342.8ms | Allocations: 7431)
+Completed 200 OK in 394ms (Views: 362.1ms | ActiveRecord: 0.0ms | Allocations: 11162)
+
+
