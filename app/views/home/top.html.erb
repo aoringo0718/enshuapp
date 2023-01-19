@@ -1,11 +1,101 @@
-<h1>トップページ</h1>
-リンク置き場(仮)<br>
-<a href="nintendo">スーパー・ニンテンドー・ワールド™</a><br>
-<a href="newyork">ニューヨーク・エリア</a><br>
-<a href="jurassic">ジュラシック・パーク</a><br>
-<a href="hollywood">ハリウッド・エリア</a><br>
-<a href="harrypotter">ウィザーディング・ワールド・オブ・ハリー・ポッター™</a><br>
+<div class="background">
 
-<!画像の挿入方法>
-<%= image_tag 'top/nurie.png' %>
-<img src="/assets/top/nurie.png" alt="">
+    <h1 class="text-center p-4">🌺公立大生が選ぶ！USJオススメエリア５選🌺</h1>
+    <h4 class="text-center pb-3">大阪に長年住んでいる(!?)私たちが独断と偏見でオススメエリアを紹介します</h4>
+
+    <% if false %>エリア紹介のカード部分<% end %>
+
+    <div class="row">
+        <div class="col-md-2">
+            <div class="card h-100"%>
+                <%= link_to nintendo_path, class:"card-body text-center text-reset text-decoration-none" do %>
+                    <%= image_tag 'top/mario.png', class: 'card-img-top aspect-ratio-block' %>
+                    <h4 class="card-title">スーパー・ニンテンドー・ワールド™</h4>
+                    <h5 class="card-content">recommend by Tanaka</h5>
+                <% end %>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="card h-100"%>
+                <%= link_to newyork_path, class:"card-body text-center text-reset text-decoration-none" do %>
+                    <%= image_tag 'top/statue_of_liberty.png', class: 'card-img-top' %>
+                    <h4 class="card-title">ニューヨーク・エリア</h4>
+                    <h5 class="card-content">recommend by Yoshitomi</h5>
+                <% end %>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="card h-100"%>
+                <%= link_to jurassic_path, class:"card-body text-center text-reset text-decoration-none" do %>
+                    <%= image_tag 'top/Tyrannosaurus.png', class: 'card-img-top' %>
+                    <h4 class="card-title">ジュラシック・パーク</h4>
+                    <h5 class="card-content">recommend by Ozeki</h5>
+                <% end %>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="card h-100"%>
+                <%= link_to hollywood_path, class:"card-body text-center text-reset text-decoration-none" do %>
+                    <%= image_tag 'top/city_night_yoruno_machi.png', class: 'card-img-top' %>
+                    <h4 class="card-title">ハリウッド・エリア</h4>
+                    <h5 class="card-content">recommend by Hamagaki</h5>
+                <% end %>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="card h-100 card:hover"%>
+                <%= link_to harrypotter_path, class:"card-body text-center text-reset text-decoration-none" do %>
+                    <%= image_tag 'top/mahoutsukai_white_man.png', class: 'card-img-top' %>
+                    <h4 class="card-title">ウィザーディング・ワールド・オブ・ハリー・ポッター™</h4>
+                    <h5 class="card-content">recommend by Misu</h5>
+                <% end %>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="card h-100"%>
+                <%= link_to "https://www.usj.co.jp/web/ja/jp/areas", class: "card-body text-center text-reset text-decoration-none" do %>
+                    <%= image_tag 'top/chikyuu.png', class: 'card-img-top' %>
+                    <h4 class="card-title">全てのエリアを見る</h4>
+                    <h5 class="card-content">(公式HPに遷移します)</h5>
+                <% end %>
+            </div>
+        </div>
+    </div>
+
+
+    <% if false %>USJについて少し紹介する<% end %>
+
+    <h2 class="text-center pt-5 pb-3">🌟Other Information🌟</h2>
+    <div class="row">
+        <div class="col-md-2">
+            <h4>🐤Official Twitter</h4>
+            <a class="twitter-timeline" data-lang="ja" data-height="550" data-height="100%" href="https://twitter.com/USJ_Official?ref_src=twsrc%5Etfw">Tweets by USJ_Official</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
+        <div class="col-md-2">
+            <h4>📸Official Instagram</h4>
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CnQk-X4PyQB/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:100% !important; min-width:initial !important; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote>
+            <script async src="//www.instagram.com/embed.js"></script>
+        </div>
+
+        <div class="col-md-4">
+            <h4>🎢Address</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26251.976948226136!2d135.42775698616992!3d34.66740095877791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0d083d5e25d%3A0x3605fe25303252aa!2z44Om44OL44OQ44O844K144Or44O744K544K_44K444Kq44O744K444Oj44OR44Oz!5e0!3m2!1sja!2sjp!4v1673436664923!5m2!1sja!2sjp" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="col-md-4">
+            <h4>🌎Other Universal Studios</h4>
+            <a class="btn btn-primary btn-lg btn-block p-2 mb-5 mt-5" href="https://www.rwsentosa.com/en/attractions/universal-studios-singapore" role="button">Universal Studios Singapore</a>
+            <a class="btn btn-success btn-lg btn-block p-2 mb-5" href="https://www.universalstudioshollywood.com/web/en/us" role="button">Universal Studios Hollywood</a>
+            <a class="btn btn-danger btn-lg btn-block p-2 mb-5" href="https://www.universalorlando.com/web/en/us/theme-parks/universal-studios-florida" role="button">Universal Studios Florida</a>
+            <a class="btn btn-warning btn-lg btn-block p-2 mb-5" href="https://www.universalorlando.com/web/en/us/theme-parks/islands-of-adventure" role="button">Universal's Islands of Adventure</a>
+        </div>
+    </div>
+    
+</div>
