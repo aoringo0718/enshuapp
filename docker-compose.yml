@@ -3,8 +3,6 @@ services:
   db:
     image: postgis/postgis:14-master
     user: root
-    volumes:
-      - ./tmp/db:/var/lib/postgresql/data
     environment:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: password
