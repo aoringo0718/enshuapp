@@ -6,6 +6,8 @@
 * Ubuntu-18.04
 * docker-compose 1.27.4
 
+M1チップのMacを使用している人は高確率で起動時エラーが出るため，Windows端末かIntel CPUのMacでの動作を推奨します．
+
 ## Docker で実行するまでの流れ
 
 0. `sudo service docker start`でdockerを起動
