@@ -13,8 +13,8 @@ M1チップのMacを使用している人は高確率で起動時エラーが出
 0. `sudo service docker start`でdockerを起動
 1. クローンしたディレクトリに移動
 1. `docker-compose build`
-3. `docker-compose run web rails db:create`
 4. `docker-compose run web bundle exec rails webpacker:install`
+3. `docker-compose run web rails db:create`
 4. `docker-compose up`
 5. `Listening on http://0.0.0.0:3000`が出たら`http://localhost:3000/` のリンクを踏む
 
